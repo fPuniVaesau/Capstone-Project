@@ -1,0 +1,1 @@
+learn more about props and how they are implenmented into react.
