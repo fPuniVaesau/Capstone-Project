@@ -1,1 +1,0 @@
-Learn and understand props in react.
