@@ -1,6 +1,7 @@
-function Button() {
+function Button(props) {
+    const { subscribe } = props
     return(
-        <button>Join</button>
+        <button>{subscribe}</button>
     );
 }
 

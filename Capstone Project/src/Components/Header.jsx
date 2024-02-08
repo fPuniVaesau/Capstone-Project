@@ -12,8 +12,8 @@ function Header(){
                     <li>Contact</li>
                 </ul>
             </nav>
-            <Button></Button>
-            <Button></Button>
+            <Button subscribe='subscribe'></Button>  
+            <Button subscribe='Add'></Button>
             </div>
 
             <h1>Demo Website</h1>
