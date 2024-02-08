@@ -1,7 +1,10 @@
+import Button from "./Button"
+
 function Header(){
 
     return(
         <header>
+            <div>
             <nav>
                 <ul>
                     <li>About Us</li>
@@ -9,6 +12,9 @@ function Header(){
                     <li>Contact</li>
                 </ul>
             </nav>
+            <Button></Button>
+            </div>
+            
             <h1>Demo Website</h1>
         </header>
     )
