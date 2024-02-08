@@ -1,1 +1,1 @@
-learn more about props and how they are implenmented into react.
+learn more about props and how they are implenmented into react..
