@@ -13,8 +13,9 @@ function Header(){
                 </ul>
             </nav>
             <Button></Button>
+            <Button></Button>
             </div>
-            
+
             <h1>Demo Website</h1>
         </header>
     )
