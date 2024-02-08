@@ -1,5 +1,5 @@
-function Button(props) {
-    const { subscribe } = props
+function Button({subscribe}) {
+   
     return(
         <button>{subscribe}</button>
     );
