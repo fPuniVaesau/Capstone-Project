@@ -16,7 +16,6 @@ export default function Main (){
     ]
 
     return(
-
         <div>
             {students.map(student=>{return <li>{student.name} | {student.role[0]} | {student.location}
             </li>})}
