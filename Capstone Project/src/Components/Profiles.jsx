@@ -1,5 +1,5 @@
 
-export default function Main (){
+export default function Profiles (){
     const students = [
         {
             name: 'Filo Puni Vaesau',
@@ -12,6 +12,12 @@ export default function Main (){
             age: 26,
             location: 'Castro Valley, Ca',
             role: ['Social Worker']
+        },
+        {
+            name: 'Milo Vaesau',
+            age: 10,
+            location: 'Dublin, Ca',
+            role: ['Full Time Student']
         }
     ]
 

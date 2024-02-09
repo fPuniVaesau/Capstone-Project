@@ -1,14 +1,14 @@
 import Header from "./Components/Header.jsx"
 import Footer from "./Components/Footer.jsx"
-import Main from "./Components/Main.jsx"
+import Profiles from "./Components/Profiles.jsx"
 
 function App() {
 
   return(
     <>
-    <Header></Header>
-    <Main></Main>
-    <Footer></Footer>
+    {/* <Header></Header> */}
+    <Profiles></Profiles>
+    {/* <Footer></Footer> */}
     </>
   )
 }
