@@ -5,7 +5,7 @@ function App() {
 
   return(
     <div>
-    <Button Subscribe = "Sub+"></Button>
+    <Button content="Subscribe"></Button>
     <Profiles></Profiles>
 
     </div>

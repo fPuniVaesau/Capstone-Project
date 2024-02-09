@@ -1,9 +1,9 @@
-export default function Button({subscribe}) {
+export default function Button({content}) {
    
     return(
         <div>
             <p>This is a button</p>
-            <button>{subscribe}</button>
+            <button>{content}</button>
         </div>
     );
 }
