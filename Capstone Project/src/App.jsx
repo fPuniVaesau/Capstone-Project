@@ -1,14 +1,14 @@
-
+import Button from "./Components/Button.jsx"
 import Profiles from "./Components/Profiles.jsx"
 
 function App() {
 
   return(
-    <>
-    {/* <Header></Header> */}
+    <div>
+    <Button Subscribe = "Sub+"></Button>
     <Profiles></Profiles>
-    {/* <Footer></Footer> */}
-    </>
+
+    </div>
   )
 }
 

@@ -1,8 +1,9 @@
-function Button({subscribe}) {
+export default function Button({subscribe}) {
    
     return(
-        <button>{subscribe}</button>
+        <div>
+            <p>This is a button</p>
+            <button>{subscribe}</button>
+        </div>
     );
 }
-
-export default Button;
