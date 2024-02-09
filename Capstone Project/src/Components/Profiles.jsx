@@ -23,6 +23,7 @@ export default function Profiles (){
 
     return(
         <div>
+            <p>This is a component creating a list using objects</p>
             {students.map(student=>{return <li>{student.name} | {student.role[0]} | {student.location}
             </li>})}
         </div>
