@@ -1,4 +1,4 @@
-import Header from "./Components/Header.jsx"
+
 import Profiles from "./Components/Profiles.jsx"
 
 function App() {
