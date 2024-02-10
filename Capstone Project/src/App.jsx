@@ -9,7 +9,7 @@ function App() {
     <div>
       <Navigation elOne="About" elTwo="Projects" elThree='Contact' ></Navigation>
       <Button content="Subscribe"></Button>
-      <Profiles></Profiles>
+      {/* <Profiles></Profiles> */}
       <ProfileCard ></ProfileCard>
     </div>
   )
