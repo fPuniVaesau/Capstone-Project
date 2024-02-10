@@ -1,4 +1,4 @@
-export default function ProfileCard(){
+export default function ProfileCard({}){
 
     const profileInfo = [
         {
