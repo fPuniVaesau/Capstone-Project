@@ -1,19 +1,10 @@
 export default function Conditionals(){
 
-    let test = true;
+    let test = false;
 
-    if(test){
-        return(
-            <div>
-                <p>True</p>
-            </div>
-        )
-    }
-    else{
-        return(
-            <div>
-                <p>False</p>
-            </div>
-        )
-    }
+    return(
+        <div>{test === true ? <h1>Welcome Filo</h1> : <p>Please log in</p>}</div>
+    )
+    
+ 
 }
