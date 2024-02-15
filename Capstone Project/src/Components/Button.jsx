@@ -1,3 +1,5 @@
+import React, { useState} from 'react';
+
 export default function Button({content}) {
     function handleClick(){
         alert("This should pop up if the code is correct");
