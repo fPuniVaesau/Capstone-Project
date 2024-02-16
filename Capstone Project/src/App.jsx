@@ -14,6 +14,7 @@ function App() {
       {/* <Profiles></Profiles> */}
       <ProfileCard ></ProfileCard>
       <Conditionals />
+      <Sandbox />
     </div>
   )
 }
