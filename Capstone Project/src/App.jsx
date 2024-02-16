@@ -3,6 +3,7 @@ import Navigation from "./Components/Navigation.jsx"
 import Profiles from "./Components/Profiles.jsx"
 import ProfileCard from "./Components/ProfileCard.jsx"
 import Conditionals from "./Components/Conditionals.jsx"
+import Sandbox from "./Components/sandbox.jsx"
 
 function App() {
 
