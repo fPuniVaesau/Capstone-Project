@@ -9,7 +9,7 @@ function App() {
   return(
     <div>
       <Navigation elOne="About" elTwo="Projects" elThree='Contact' ></Navigation>
-      <Button content="Subscribe"></Button>
+      <Button content="Follow+"></Button>
       <ProfileCard ></ProfileCard>
       <Conditionals />
     </div>
