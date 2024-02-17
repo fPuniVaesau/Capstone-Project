@@ -12,7 +12,6 @@ function App() {
       <Button content="Subscribe"></Button>
       <ProfileCard ></ProfileCard>
       <Conditionals />
-
     </div>
   )
 }
