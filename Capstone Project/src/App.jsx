@@ -1,17 +1,10 @@
-import Button from "./Components/Button.jsx"
-import Navigation from "./Components/Navigation.jsx"
-import ProfileCard from "./Components/ProfileCard.jsx"
-import Conditionals from "./Components/Conditionals.jsx"
-
+import Navigation from "./Components/Navigation"
 
 function App() {
 
   return(
     <div>
-      <Navigation elOne="About" elTwo="Projects" elThree='Contact' ></Navigation>
-      <Button content="Follow+"></Button>
-      <ProfileCard ></ProfileCard>
-      <Conditionals />
+      
     </div>
   )
 }
