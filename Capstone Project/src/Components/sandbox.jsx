@@ -1,12 +1,17 @@
+import { useState } from "react";
+
 export default function Sandbox(){
     
-    let handleClick = () => {
-        console.log('This is a test!');
+    let toggle = () => {
+        const [currentState, setCurrentState] = useState();
+
+        
     }
     
     return(
         <>
-            <button onClick={handleClick}> CLick me</button>
+            <button onClick={()=>setCurrentState('On')}>On</button>
+            <button onClick={()=>setCurrentState('off')}>Off</button>
         </>
     )
 }
