@@ -8,7 +8,7 @@ function App() {
     <>
       <Navigation elOne="About" elTwo='Projects' elThree="Contact Me"/>
       <ProfileCard />
-
+      <Button />
     </>
   )
 }
