@@ -7,7 +7,7 @@ export default function Button() {
     return(
         <div>
             <p>Choose a color!</p>
-            <button>Set Number</button>
+            <button onClick={()=>setNumber(number)}>Set Number</button>
             <p>Your favoiite # is: {number}</p>
         </div>
     );
