@@ -1,11 +1,14 @@
 import React, { useState} from 'react';
 
 export default function Button() {
-   
+   let [number, setNumber] = useState(0)
+
+
     return(
         <div>
-            <p>This is a button</p>
-            <button onClick={handleClick}>Click Here to run test!</button>
+            <p>Choose a color!</p>
+            <button>Set Number</button>
+            <p>Your favoiite # is: {number}</p>
         </div>
     );
 }
