@@ -10,6 +10,7 @@ export default function Form() {
 
   return (
     <>
+      <h1>This is handle a single input form</h1>
       <form>
         <input
           type='text'
@@ -18,8 +19,8 @@ export default function Form() {
           }}
           value={value}
         />
-        <h1>Welcome, {value}</h1>
       </form>
+      <h3>Output: {value}</h3>
     </>
   );
 }
