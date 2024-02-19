@@ -3,6 +3,7 @@ import ProfileCard from "./Components/ProfileCard"
 import Button from "./Components/Button"
 import UseStateComp from "./Components/UseStateComp"
 import Form from "./Components/Form"
+import Form2 from "./Components/form2"
 
 function App() {
 
@@ -13,6 +14,7 @@ function App() {
       <Button /> */}
       <UseStateComp />
       <Form />
+      <Form2 />
     </>
   )
 }
