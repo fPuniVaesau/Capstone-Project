@@ -18,6 +18,7 @@ export default function Form() {
           }}
           value={value}
         />
+        <h1>Welcome, {value}</h1>
       </form>
     </>
   );
