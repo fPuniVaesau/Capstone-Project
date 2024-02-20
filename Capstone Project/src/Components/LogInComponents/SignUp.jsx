@@ -11,12 +11,16 @@ export default function SignUp() {
 
 //   Functions to handle each input field.
 
+  let setFirstName = (e) => {
+    setCredentials({...credentials, firstName: e.target.value})
+  }
+
   return (
     <>
       <h3>Sign Up</h3>
       <form action=''>
         <label htmlFor=''>First Name</label>
-        <input type='text' />
+        <input type='text' onChange={(e)=>setFirstName(e)}/>
         <br />
         <label htmlFor=''>Last Name</label>
         <input type='password' />
