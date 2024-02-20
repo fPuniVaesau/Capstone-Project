@@ -4,7 +4,7 @@ export default function SignUp(){
     let[credentials, setCredentials] = useState({
         firstName: '',
         lastName: '',
-        
+        age: 0,
         userName: '',
         password: '',
     })
