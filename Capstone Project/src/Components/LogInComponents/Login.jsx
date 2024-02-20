@@ -9,7 +9,7 @@ export default function Login(){
     }
 
     let setPassword = () => {
-        
+        set
     }
 
     return(
@@ -20,7 +20,7 @@ export default function Login(){
                 <input type="text" onChange={(e)=>{setUserName(e)}}/>
                 <br></br>
                 <label htmlFor="">Password</label>
-                <input type="text" />
+                <input type="text" onChange={(e)=>{setPassword(e)}}/>
             </form>
         </>
     )
