@@ -9,18 +9,18 @@ export default function SignUp() {
     password: '',
   });
 
-//   Functions to handle each input field.
+  //   Functions to handle each input field.
 
   let setFirstName = (e) => {
-    setCredentials({...credentials, firstName: e.target.value})
-  }
+    setCredentials({ ...credentials, firstName: e.target.value });
+  };
 
   return (
-    <>
+    <div>
       <h3>Sign Up</h3>
       <form action=''>
         <label htmlFor=''>First Name</label>
-        <input type='text' onChange={(e)=>setFirstName(e)}/>
+        <input type='text' onChange={(e) => setFirstName(e)} />
         <br />
         <label htmlFor=''>Last Name</label>
         <input type='password' />
@@ -35,6 +35,6 @@ export default function SignUp() {
         <input type='text' />
       </form>
       <button>Submit</button>
-    </>
+    </div>
   );
 }
