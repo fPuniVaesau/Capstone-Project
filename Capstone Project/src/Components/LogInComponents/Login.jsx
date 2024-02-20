@@ -9,7 +9,7 @@ export default function Login(){
     }
 
     let setPassword = () => {
-        set
+        setCredentials({...credentials, PassWord:e.target.value})
     }
 
     return(
