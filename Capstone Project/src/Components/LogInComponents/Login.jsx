@@ -12,7 +12,7 @@ export default function Login() {
   };
 
   return (
-    <>
+    <div>
       <h3>Login</h3>
       <form>
         <label htmlFor=''>Username</label>
@@ -32,6 +32,6 @@ export default function Login() {
         />
       </form>
       <button>Enter</button>
-    </>
+    </div>
   );
 }
