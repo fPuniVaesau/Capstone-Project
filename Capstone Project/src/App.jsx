@@ -4,6 +4,8 @@ import Button from "./Components/Button"
 import UseStateComp from "./Components/UseStateComp"
 import Form from "./Components/Form"
 import Form2 from "./Components/form2"
+import Hero from "./Components/Hero"
+
 
 function App() {
 
@@ -12,9 +14,12 @@ function App() {
       {/* <Navigation elOne="About" elTwo='Projects' elThree="Contact Me"/>
       <ProfileCard />
       <Button /> */}
-      <UseStateComp />
+
+      {/* <UseStateComp />
       <Form />
-      <Form2 />
+      <Form2 /> */}
+
+      <Hero />
     </>
   )
 }
