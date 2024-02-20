@@ -8,7 +8,9 @@ export default function Login(){
         setCredentials({...credentials, UserName:e.target.value})
     }
 
-    let setPass
+    let setPassword = () => {
+        
+    }
 
     return(
         <>
