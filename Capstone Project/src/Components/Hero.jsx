@@ -1,9 +1,10 @@
 
-export default function Hero(){
+export default function Hero({titel, subtitle}){
     return(
         <>
             <img src="" alt="" />
-            <h1>Title</h1>
+            <h1></h1>
+            <h2></h2>
         </>
     )
 }
