@@ -11,7 +11,7 @@ export default function UseStateComp() {
         <button onClick={()=>{setValue(value+1)}}>Add+</button>
         <button onClick={()=>{setValue(value-1)}}>SubTract-</button>
         <button onClick={()=>{setValue(0)}}>Reset</button>
-        <h3>The Current Count is {value}</h3>
+        <h3>The Current Count is: {value}</h3>
         </>
     );
 }
