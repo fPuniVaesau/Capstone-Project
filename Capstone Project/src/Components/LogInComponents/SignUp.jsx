@@ -28,6 +28,7 @@ export default function SignUp() {
         <label htmlFor=''>Password</label>
         <input type='text' />
       </form>
+      <button>Submit</button>
     </>
   );
 }
