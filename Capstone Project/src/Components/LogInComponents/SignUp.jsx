@@ -9,6 +9,8 @@ export default function SignUp() {
     password: '',
   });
 
+//   Functions to handle each input field.
+
   return (
     <>
       <h3>Sign Up</h3>
