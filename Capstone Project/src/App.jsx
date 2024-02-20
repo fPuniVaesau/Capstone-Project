@@ -6,6 +6,7 @@ import Form from "./Components/Form"
 import Form2 from "./Components/form2"
 import Hero from "./Components/Hero"
 import Login from "./Components/LogInComponents/Login"
+import SignUp from "./Components/LogInComponents/SignUp"
 
 function App() {
 
@@ -22,6 +23,7 @@ function App() {
       {/* <Hero title={"What is the Backend?"} subtitle={"Things to learn for backend development"} /> */}
 
       <Login />
+      <SignUp />
     </>
   )
 }
