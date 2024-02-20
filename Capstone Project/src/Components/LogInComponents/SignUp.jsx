@@ -15,6 +15,10 @@ export default function SignUp(){
             <form action="">
                 <label htmlFor="">First Name</label>
                 <input type="text" />
+                <br />
+                <label htmlFor="">Last Name</label>
+                <input type="password" />
+                <br />
             </form>
         </>
     )
