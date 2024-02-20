@@ -15,6 +15,10 @@ export default function SignUp() {
     setCredentials({ ...credentials, firstName: e.target.value });
   };
 
+  let setLastName = (e) => {
+    setCredentials({ ...credentials, lastName: e.target.value });
+  }
+
   return (
     <div>
       <h3>Sign Up</h3>
@@ -23,7 +27,7 @@ export default function SignUp() {
         <input type='text' onChange={(e) => setFirstName(e)} />
         <br />
         <label htmlFor=''>Last Name</label>
-        <input type='password' />
+        <input type='password' onChange={(e) => setLastName(e)}/>
         <br />
         <label htmlFor=''>Age</label>
         <input type='number' />
