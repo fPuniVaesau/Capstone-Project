@@ -19,6 +19,8 @@ export default function SignUp(){
                 <label htmlFor="">Last Name</label>
                 <input type="password" />
                 <br />
+                <label htmlFor="">Age</label>
+                <input type="number" />
             </form>
         </>
     )
