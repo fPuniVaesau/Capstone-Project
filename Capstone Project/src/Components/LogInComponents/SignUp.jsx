@@ -17,18 +17,18 @@ export default function SignUp() {
 
   let setLastName = (e) => {
     setCredentials({ ...credentials, lastName: e.target.value });
-  }
+  };
 
   let setAge = (e) => {
-    setCredentials({...credentials, age:e.target.value});
-  }
+    setCredentials({ ...credentials, age: e.target.value });
+  };
 
   let setUserName = (e) => {
-    setCredentials({...credentials, userName:e.target.value})
+    setCredentials({ ...credentials, userName: e.target.value });
   };
 
   let setPassword = (e) => {
-    setCredentials({...credentials, password:e.target.value})
+    setCredentials({ ...credentials, password: e.target.value });
   };
 
   return (
@@ -39,16 +39,16 @@ export default function SignUp() {
         <input type='text' onChange={(e) => setFirstName(e)} />
         <br />
         <label htmlFor=''>Last Name</label>
-        <input type='text' onChange={(e) => setLastName(e)}/>
+        <input type='text' onChange={(e) => setLastName(e)} />
         <br />
         <label htmlFor=''>Age</label>
-        <input type='number' onChange={(e)=>setAge(e)}/>
+        <input type='number' onChange={(e) => setAge(e)} />
         <br />
         <label htmlFor=''>UserName</label>
-        <input type='text' onChange={(e)=> setUserName(e)} />
+        <input type='text' onChange={(e) => setUserName(e)} />
         <br />
         <label htmlFor=''>Password</label>
-        <input type='password' onChange={(e)=> setPassword(e)}/>
+        <input type='password' onChange={(e) => setPassword(e)} />
       </form>
       <button>Submit</button>
     </div>
