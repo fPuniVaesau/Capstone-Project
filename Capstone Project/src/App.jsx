@@ -23,9 +23,9 @@ function App() {
 
       {/* <Hero title={"What is the Backend?"} subtitle={"Things to learn for backend development"} /> */}
 
-      <Login />
+      {/* <Login />
       <SignUp />
-      <br />
+      <br /> */}
       <LoginSignUp />
     </>
   )

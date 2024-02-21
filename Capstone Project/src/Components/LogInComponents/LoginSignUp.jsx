@@ -2,8 +2,14 @@ import React, { useState } from 'react';
 import Login from './Login';
 import SignUp from './SignUp';
 
-export default function LoginSignUp({prop}) {
-  let [userStatus, setUserStatus] = useState(False)
+export default function LoginSignUp() {
+  let [userStatus, setUserStatus] = useState()
   
-  userStatus === true ? <Login /> : <SignUp />
+  if (userStatus === true){
+    return(<Login />)
+  }
+
+  else{
+    return(<SignUp />)
+  }
 }
