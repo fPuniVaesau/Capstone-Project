@@ -26,6 +26,7 @@ function App() {
       <Login />
       <SignUp />
       <>br</>
+      <LoginSignUp />
     </>
   )
 }
