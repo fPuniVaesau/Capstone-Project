@@ -23,6 +23,10 @@ export default function SignUp() {
     setCredentials({...credentials, age:e.target.value});
   }
 
+  let setUserName = (e) => {
+    setCredentials({...credentials, userName:e.target.value})
+  };
+
   return (
     <div>
       <h3>Sign Up</h3>
