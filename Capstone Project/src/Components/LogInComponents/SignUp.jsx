@@ -48,7 +48,7 @@ export default function SignUp() {
         <input type='text' onChange={(e)=> setUserName(e)} />
         <br />
         <label htmlFor=''>Password</label>
-        <input type='text' onChange={(e)=> setPassword(e)}/>
+        <input type='password' onChange={(e)=> setPassword(e)}/>
       </form>
       <button>Submit</button>
     </div>
