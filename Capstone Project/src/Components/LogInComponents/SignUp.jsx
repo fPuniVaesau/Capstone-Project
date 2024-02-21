@@ -39,7 +39,7 @@ export default function SignUp() {
         <input type='text' onChange={(e) => setFirstName(e)} />
         <br />
         <label htmlFor=''>Last Name</label>
-        <input type='password' onChange={(e) => setLastName(e)}/>
+        <input type='text' onChange={(e) => setLastName(e)}/>
         <br />
         <label htmlFor=''>Age</label>
         <input type='number' onChange={(e)=>setAge(e)}/>
