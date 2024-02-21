@@ -7,7 +7,7 @@ export default function LoginSignUp(){
 
     return(
         <>
-           
+           <h3>Test</h3>
         </>
     )
 }
