@@ -3,7 +3,7 @@ import Login from './Login';
 import SignUp from './SignUp';
 
 export default function LoginSignUp() {
-  let [userStatus, setUserStatus] = useState();
+  let [userStatus, setUserStatus] = useState(true);
 
   if (userStatus === true) {
     return <Login />;
