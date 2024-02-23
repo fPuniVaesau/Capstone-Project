@@ -27,7 +27,9 @@ function App() {
       {/* <Login />
       <SignUp />
       <br /> */}
-      <LoginSignUp />
+
+      {/* <LoginSignUp /> */}
+      <Time />
     </>
   )
 }
