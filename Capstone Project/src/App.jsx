@@ -8,6 +8,7 @@ import Hero from "./Components/Hero"
 import Login from "./Components/LogInComponents/Login"
 import SignUp from "./Components/LogInComponents/SignUp"
 import LoginSignUp from "./Components/LogInComponents/LoginSignUp"
+import Time from "./Components/LogInComponents/Time"
 
 function App() {
 
