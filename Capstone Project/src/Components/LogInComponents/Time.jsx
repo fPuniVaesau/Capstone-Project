@@ -1,11 +1,12 @@
 
 export default function Time(){
-    let newTime = new Date();
-
+    let date = new Date();
+    let showTime = date.getHours()%12
 
     return(
         <>
-            <h3>testing the time: {newTime.getTime}</h3>
+            <h3>testing the time</h3>
+            <p>{}</p>
         </>
     )
 }
