@@ -1,7 +1,7 @@
 import React, { useState} from 'react';
 
 export default function Button() {
-   let [number, setNumber] = useState(110)
+   let [number, setNumber] = useState(0)
 
     return(
         <div>
