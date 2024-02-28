@@ -1,18 +1,17 @@
-import Navigation from "./Components/Navigation"
-import ProfileCard from "./Components/ProfileCard"
-import Button from "./Components/Button"
-import UseStateComp from "./Components/UseStateComp"
-import Form from "./Components/Form"
-import Form2 from "./Components/form2"
-import Hero from "./Components/Hero"
-import Login from "./Components/LogInComponents/Login"
-import SignUp from "./Components/LogInComponents/SignUp"
-import LoginSignUp from "./Components/LogInComponents/LoginSignUp"
-import Time from "./Components/LogInComponents/Time"
+import Navigation from './Components/Navigation';
+import ProfileCard from './Components/ProfileCard';
+import Button from './Components/Button';
+import UseStateComp from './Components/UseStateComp';
+import Form from './Components/Form';
+import Form2 from './Components/form2';
+import Hero from './Components/Hero';
+import Login from './Components/LogInComponents/Login';
+import SignUp from './Components/LogInComponents/SignUp';
+import LoginSignUp from './Components/LogInComponents/LoginSignUp';
+import Time from './Components/LogInComponents/Time';
 
 function App() {
-
-  return(
+  return (
     <>
       {/* <Navigation elOne="About" elTwo='Projects' elThree="Contact Me"/>
       <ProfileCard />
@@ -31,7 +30,7 @@ function App() {
       {/* <LoginSignUp /> */}
       <Time />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
