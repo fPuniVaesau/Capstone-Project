@@ -21,8 +21,6 @@ function App() {
       <Form />
       <Form2 /> */}
 
-      {/* <Hero title={"What is the Backend?"} subtitle={"Things to learn for backend development"} /> */}
-
       {/* <Login />
       <SignUp />
       <br /> */}
