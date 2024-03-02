@@ -1,4 +1,4 @@
-export default function ProfileCard({profilePic, name, role, bio, location, banner}){
+export default function ProfileCard({profilePic, name, role, bio, location, CardBanner}){
     return(
         <div>
             <img src={profilePic} alt="Profile Picture" />
@@ -6,7 +6,7 @@ export default function ProfileCard({profilePic, name, role, bio, location, bann
             <h2>{role}</h2>
             <h3>{location}</h3>
             <p>{bio}</p>
-            <img src="{banner}" alt="Profile Banner" />
+            <img src={CardBanner} alt="Profile Banner" />
             <button>Follow+</button>
         </div>
     )
