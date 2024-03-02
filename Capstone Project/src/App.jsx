@@ -4,8 +4,10 @@ function App() {
   return (
     <>
       <ProfileCard
+        profilePic={}
         name='Filo Puni Vaesau'
         role={'Digital Craftsman | Full Stack Developer'}
+
       />
     </>
   );
