@@ -3,7 +3,7 @@ import ProfileCard from "./Components/ProfileCardComponents/ProfileCard";
 function App() {
   return (
     <>
-      <ProfileCard />
+      <ProfileCard name="Filo Puni Vaesau"  />
      
     </>
   );
