@@ -2,8 +2,9 @@ export default function ProfileCard({profilePic, name, role, bio, location, bann
     return(
         <div>
             <img src={profilePic} alt="Profile Picture" />
-            <h2>{name}</h2>
-
+            <h1>{name}</h1>
+            <h2>{role}</h2>
+            <h3>{location}</h3>
         </div>
     )
 }
