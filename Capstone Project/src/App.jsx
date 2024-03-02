@@ -1,10 +1,9 @@
 import "./styles.css"
-
+import ProfileCard from "./Components/ProfileCardComponents/ProfileCard";
 function App() {
   return (
     <>
-      <h1>Testing</h1>
-      <h2>Filo Puni Vaesau</h2>
+      <ProfileCard />
      
     </>
   );
