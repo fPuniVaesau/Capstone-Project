@@ -7,7 +7,7 @@ function App() {
         profilePic={}
         name='Filo Puni Vaesau'
         role={'Digital Craftsman | Full Stack Developer'}
-
+        bio={}
       />
     </>
   );
