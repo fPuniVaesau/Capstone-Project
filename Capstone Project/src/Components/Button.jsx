@@ -5,7 +5,7 @@ export default function Button() {
 
   return (
     <div>
-      <p>Choose a color!</p>
+      <h1>Choose a color!</h1>
       <button onClick={() => setNumber(number)}>Set Number</button>
       <p>Your favoiite # is: {number}</p>
     </div>
