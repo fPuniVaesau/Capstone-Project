@@ -1,4 +1,4 @@
-export default function ProfileCard(){
+export default function ProfileCard({name, role, bio, location, banner}){
     return(
         <div>
             <img src="" alt="" />
