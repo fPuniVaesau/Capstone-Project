@@ -26,3 +26,5 @@ export default function Form(){
         </div>
     )
 }
+
+// try handlin multiple form inputs
