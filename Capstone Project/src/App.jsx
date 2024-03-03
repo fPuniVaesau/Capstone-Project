@@ -1,5 +1,5 @@
 import './styles.css';
-import NavBar from './Components/HeaderComponents/NavBar';
+import NavBar from './Components/HeaderComponents/NavBarComponents/NavBar';
 import ProfileCard from './Components/ProfileCardComponents/ProfileCard';
 function App() {
   return (
