@@ -1,7 +1,7 @@
 import styles from "./ProfileCard.module.css"
 export default function ProfileCard({profilePic, name, role, bio, location, CardBanner}){
     return(
-        <div>
+        <div className={styles.card}>
             <img className={styles.profilePic} src={profilePic} alt="Profile Picture" />
             <h1 className={styles.name}>{name}</h1>
             <h2 className={styles.role}>{role}</h2>
