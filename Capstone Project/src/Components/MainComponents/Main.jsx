@@ -1,4 +1,4 @@
-import ProfileCard from './Components/ProfileCardComponents/ProfileCard';
+import ProfileCard from "../ProfileCardComponents/ProfileCard.jsx"
 
 export default function Main(){
     return(

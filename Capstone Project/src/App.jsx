@@ -1,13 +1,14 @@
 import './styles.css';
 import NavBar from './Components/HeaderComponents/NavBarComponents/NavBar';
-import Form from './Components/MainComponents/FormComponents/Form';
-import ProfileCard from './Components/ProfileCardComponents/ProfileCard';
+import Main from './Components/MainComponents/Main';
+
+
 
 export default function App() {
   return (
     <>
       <NavBar />
-
+      <Main />
       
     </>
   );
