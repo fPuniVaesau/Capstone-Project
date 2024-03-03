@@ -44,10 +44,11 @@
 
 .banner {
   max-height: 100px;
-  object-fit: cover;
+  object-fit: contain;
   margin: auto;
   border-radius: 10px;
   margin-top: 10px;
+  
 }
 
 .button {
