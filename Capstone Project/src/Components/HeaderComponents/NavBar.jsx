@@ -3,7 +3,7 @@ export default function NavBar(){
     return(
         <div>
             <ul>
-
+                {navItems.map(item=>(<li key={item}>{item}</li>))}
             </ul>
         </div>
     )
