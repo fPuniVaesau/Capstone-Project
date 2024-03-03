@@ -58,11 +58,14 @@
   margin-top: 3px;
   cursor: pointer;
   transition: 0.3s ease-in-out;
-  
 }
 
 .button:hover {
+  background-color: hsl(181, 32%, 50%);
+  color: aliceblue;
+  text-align: center;
 }
 
 .button:active {
+  background-color: hsla(83, 50%, 62%, 0.701);
 }
