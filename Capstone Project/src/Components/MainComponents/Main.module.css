@@ -1,3 +1,8 @@
-.top{
-  border: ;
+.top {
+  border: 1px solid lightblue;
+  display: flex;
+  flex-grow: 1;
+}
+.heroContainer {
+  border: 1px solid green;
 }
