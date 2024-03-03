@@ -1,40 +1,37 @@
 .card {
-    padding: 20px;
-    margin: ;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px hsla(0, 0%, 45%, 0.7);
+  max-width: 70%;
+  height: auto;
+  display: inline-block;
 }
 
-.name{
-
-}
-
-.profilePic{
-
-}
-
-.role{
-
-}
-
-.location{
-
-}
-
-.bio{
-
-}
-
-.banner{
-
-}
-
-.button{
-
-}
-
-.button:hover{
-
-}
-
-.button:active{
+.name {
     
+}
+
+.profilePic {
+}
+
+.role {
+}
+
+.location {
+}
+
+.bio {
+}
+
+.banner {
+}
+
+.button {
+}
+
+.button:hover {
+}
+
+.button:active {
 }
