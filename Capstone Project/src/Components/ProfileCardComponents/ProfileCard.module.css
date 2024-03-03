@@ -3,9 +3,9 @@
   margin: 10px;
   border-radius: 10px;
   box-shadow: 5px 5px 5px hsla(0, 0%, 45%, 0.7);
-  max-width: 70%;
+  max-width: 20em;
   height: auto;
-  display: inline-block;
+  display: block;
 }
 
 .name {
