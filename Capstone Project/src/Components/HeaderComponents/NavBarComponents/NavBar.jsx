@@ -4,7 +4,7 @@ export default function NavBar(){
     const navItems = ['About', 'Projects', 'Join']
     return(
         <div>
-            <ul>
+            <ul className={styles.ul}>
                 {navItems.map(item=>(<li className={styles.listItem} key={item}>{item}</li>))}
             </ul>
         </div>
