@@ -1,6 +1,0 @@
-.mainContainer {
-  border: 1px solid firebrick;
-  /* display: grid; */
-  grid-auto-flow: column;
-  grid-template-columns: 300px, 1fr;
-}
