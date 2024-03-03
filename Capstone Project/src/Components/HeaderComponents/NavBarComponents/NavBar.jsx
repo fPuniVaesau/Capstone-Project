@@ -1,4 +1,4 @@
-
+import styles from './NavBar.module.css'
 
 export default function NavBar(){
     const navItems = ['About', 'Projects', 'Join']
