@@ -1,4 +1,5 @@
 import ProfileCard from '../ProfileCardComponents/ProfileCard.jsx';
+import Hero from './HeroComponents/Hero.jsx';
 import styles from "./Main.module.css"
 
 export default function Main() {
@@ -16,9 +17,7 @@ export default function Main() {
         }
         CardBanner={'https://i.redd.it/sni0noeuz6311.gif'}
       />
-      <div>
-        <h1>What is the Backend in Web Development?</h1>
-      </div>
+      <Hero title={"What is the Backend in Web Development?"} />
     </div>
   );
 }
