@@ -1,12 +1,12 @@
 
 .heroContainer {
-  border: 1px solid red;
+  /* border: 1px solid red; */
   flex-basis: 100%;
   padding: 10px;
 }
 
 .heroImage {
-  max-height: 30em;
+  max-height: 27em;
   object-fit: cover;
   border-radius: 10px;
 }
