@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 
 export default function Form(){
-
+    let [name, setName] = useState('');
+    
     return(
         <div>
             <form action="">
