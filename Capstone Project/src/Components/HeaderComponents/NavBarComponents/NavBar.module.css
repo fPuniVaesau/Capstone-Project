@@ -1,7 +1,10 @@
 .ul{
     border: 1px solid navy;
+    display: flex;
+    gap: 1rem;
 }
 
 .listItem{
     color: rgb(255, 102, 0);
+    list-style: none;
 }
