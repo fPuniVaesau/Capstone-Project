@@ -17,6 +17,9 @@
     max-height: 100px;
     max-width: 100px;
     border-radius: 500px;
+    outline-offset: 3px;
+    margin: auto;
+    box-shadow: 2px 3px 10px hsla(0, 0%, 45%, 0.7);
 }
 
 .role {
