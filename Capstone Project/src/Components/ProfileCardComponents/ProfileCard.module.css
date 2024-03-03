@@ -35,6 +35,9 @@
 }
 
 .bio {
+    max-width: 200px;
+    font-size: 0.75rem;
+    margin: auto;
 }
 
 .banner {
