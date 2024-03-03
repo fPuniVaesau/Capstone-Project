@@ -8,7 +8,7 @@ function App() {
         name='Filo Puni Vaesau'
         role={'Digital Craftsman | Full Stack Developer'}
         bio={'"You shall, I question not, find a way to the top if you diligently seek for it; for nature hath placed nothing so high that it is out of the reach of industry and valor. -Alexander The Great"'}
-        CardBanner={"https://art.ngfiles.com/images/3465000/3465427_rappenem_sanctuary-animated.gif?f1695056278"}
+        CardBanner={"https://i.redd.it/sni0noeuz6311.gif"}
       />
     </>
   );
