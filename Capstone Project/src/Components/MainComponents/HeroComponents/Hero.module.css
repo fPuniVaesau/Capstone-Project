@@ -1,0 +1,4 @@
+.heroImage {
+  max-height: 30em;
+  object-fit: cover;
+}
