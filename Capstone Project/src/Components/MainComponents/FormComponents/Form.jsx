@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 
 export default function Form(){
     let [name, setName] = useState('');
-    let [guestList, setGuestList] = ([]);
+    let [guestList, setGuestList] = useState([]);
 
     let listenForChange = (e) =>{
         setName(e.target.value);
@@ -21,7 +21,7 @@ export default function Form(){
                 <button>Add</button>
             </form>
             <div>
-                {guestList.map()}
+                {guestList.map(item => (<h3 key={item}>{item}</h3>))}
             </div>
         </div>
     )
