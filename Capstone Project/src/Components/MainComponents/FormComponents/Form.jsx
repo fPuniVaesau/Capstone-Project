@@ -2,10 +2,15 @@ import React, { useState } from 'react';
 
 export default function Form(){
     let [name, setName] = useState('');
-    let [guestList, setGuestList] = ([])
+    let [guestList, setGuestList] = ([]);
 
     let listenForChange = (e) =>{
         setName(e.target.value);
+    }
+    let handleSubmit = (e) =>{
+        e.preventDefault();
+        setGuestList([...guestList, name]);
+        setName('');
     }
     return(
         <div>
@@ -16,7 +21,7 @@ export default function Form(){
                 <button>Add</button>
             </form>
             <div>
-                {name}
+                {guestList.map()}
             </div>
         </div>
     )
