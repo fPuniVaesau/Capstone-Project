@@ -16,7 +16,6 @@ function App() {
         CardBanner={"https://i.redd.it/sni0noeuz6311.gif"}
       /> */}
 
-      <Form />
     </>
   );
 }
