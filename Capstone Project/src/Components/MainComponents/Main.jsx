@@ -18,7 +18,7 @@ export default function Main() {
         CardBanner={'https://i.redd.it/sni0noeuz6311.gif'}
       />
       <Hero
-        className={styles.heroContainer}
+        
         title={'What is the Backend in Web Development?'}
         imgUrl={
           'https://images.unsplash.com/photo-1625014618427-fbc980b974f5?q=80&w=3464&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
