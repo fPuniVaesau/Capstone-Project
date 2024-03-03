@@ -3,7 +3,7 @@
   margin: 10px;
   border-radius: 10px;
   box-shadow: 5px 5px 5px hsla(0, 0%, 45%, 0.7);
-  max-width: 25em;
+  min-width: 20em;
   max-height: 40em;
   display: block;
 }
