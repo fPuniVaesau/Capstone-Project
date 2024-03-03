@@ -5,12 +5,12 @@
 }
 
 .heroImage {
-  max-height: 12em;
+  max-height: 10em;
   object-fit: cover;
   border-radius: 10px;
   min-width: 15em;
 }
 
 .mainTitle {
-  font-size: 5em;
+  font-size: 7em;
 }
