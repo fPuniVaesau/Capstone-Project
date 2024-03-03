@@ -16,7 +16,7 @@ export default function Main() {
         }
         CardBanner={'https://i.redd.it/sni0noeuz6311.gif'}
       />
-      <div className={styles.heroContainer}>
+      <div>
         <h1>What is the Backend in Web Development?</h1>
       </div>
     </div>
