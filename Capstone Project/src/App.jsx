@@ -8,10 +8,12 @@ function App() {
         name='Filo Puni Vaesau'
         role={'Digital Craftsman | Full Stack Developer'}
         bio={'"You shall, I question not, find a way to the top if you diligently seek for it; for nature hath placed nothing so high that it is out of the reach of industry and valor. -Alexander The Great"'}
-        CardBanner={"https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/19c68006-1bb3-4971-94b5-97446e0b1755/dfsbwos-fe07721a-16b7-4bd4-9020-a892afb44528.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzE5YzY4MDA2LTFiYjMtNDk3MS05NGI1LTk3NDQ2ZTBiMTc1NVwvZGZzYndvcy1mZTA3NzIxYS0xNmI3LTRiZDQtOTAyMC1hODkyYWZiNDQ1MjguZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.H77rDwB9UX7przh9JIyyuKpE5u7VVHnUKhteeMtEI44"}
+        CardBanner={"https://art.ngfiles.com/images/3465000/3465427_rappenem_sanctuary-animated.gif?f1695056278"}
       />
     </>
   );
 }
 
 export default App;
+
+
