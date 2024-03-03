@@ -3,3 +3,12 @@
   display: flex;
   padding: 10px;
 }
+
+.card{
+  
+}
+
+.hero {
+  flex-grow: 1;
+  flex-basis: 30em;
+}
