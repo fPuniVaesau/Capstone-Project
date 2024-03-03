@@ -1,12 +1,5 @@
 .mainContainer {
   border: 1px solid firebrick;
   display: flex;
-}
-
-.heroContainer {
-  border: none;
-  gap: 1rem;
-  box-shadow: 0px 3px 5px hsla(0, 0%, 40%, 0.7);
-  border-radius: 10px;
   padding: 10px;
 }
