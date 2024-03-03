@@ -1,4 +1,3 @@
-
 .heroContainer {
   /* border: 1px solid red; */
   flex-basis: 100%;
@@ -6,8 +5,12 @@
 }
 
 .heroImage {
-  max-height: 27em;
+  max-height: 12em;
   object-fit: cover;
   border-radius: 10px;
+  min-width: 15em;
 }
 
+.mainTitle {
+  font-size: 5em;
+}
