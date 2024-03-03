@@ -1,6 +1,6 @@
 import './styles.css';
 import NavBar from './Components/HeaderComponents/NavBarComponents/NavBar';
-
+import Form from './Components/MainComponents/FormComponents/Form';
 import ProfileCard from './Components/ProfileCardComponents/ProfileCard';
 function App() {
   return (
@@ -16,7 +16,7 @@ function App() {
         CardBanner={"https://i.redd.it/sni0noeuz6311.gif"}
       /> */}
 
-
+      <Form />
     </>
   );
 }
