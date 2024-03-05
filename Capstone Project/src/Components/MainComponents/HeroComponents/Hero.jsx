@@ -1,5 +1,5 @@
 import styles from './Hero.module.css';
-export default function Hero({ title, imgUrl }) {
+export default function Hero({ title, imgUrl, subTitle }) {
   return (
     <div className={styles.heroContainer}>
       <h1 className={styles.mainTitle}>{title}</h1>
