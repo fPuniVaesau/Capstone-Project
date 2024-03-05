@@ -1,5 +1,6 @@
 import ProfileCard from '../ProfileCardComponents/ProfileCard.jsx';
 import Hero from './HeroComponents/Hero.jsx';
+import IntroSection from './IntroComponents/IntroSection.jsx';
 import styles from './Main.module.css';
 
 export default function Main() {
