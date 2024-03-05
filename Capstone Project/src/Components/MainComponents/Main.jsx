@@ -28,7 +28,7 @@ export default function Main() {
       </div>
       {/* This is the begining of the main content */}
       <div>
-          
+          <IntroSection />
       </div>
     </>
   );
