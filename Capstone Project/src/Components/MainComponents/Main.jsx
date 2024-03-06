@@ -21,7 +21,6 @@ export default function Main() {
         />
         <Hero
           title={'What is the Backend?'}
-          subTitle={"when it comes to web development?"}
         />
       </div>
       {/* This is the begining of the main content */}
