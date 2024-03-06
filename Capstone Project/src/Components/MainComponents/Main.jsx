@@ -19,7 +19,7 @@ export default function Main() {
           }
           CardBanner={'https://i.redd.it/sni0noeuz6311.gif'}
         />
-        <Hero title={'What is the Backend?'} />
+        <Hero />
       </div>
       {/* This is the begining of the main content */}
       <div>
