@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+html{
+    background-color: hsla(211, 12%, 48%, 1);
+}
+
 img,
 svg,
 video,
