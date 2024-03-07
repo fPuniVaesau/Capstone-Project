@@ -5,8 +5,8 @@ import Main from './Components/MainComponents/Main';
 export default function App() {
   return (
     <>
-      <NavBar />
-      <Main />
+      {/* <NavBar />
+      <Main /> */}
     </>
   );
 }
