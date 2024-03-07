@@ -11,4 +11,6 @@
 
 .mainTitle {
   font-size: 5em;
+  /* border: 1px solid red; */
+  margin: 0;
 }
