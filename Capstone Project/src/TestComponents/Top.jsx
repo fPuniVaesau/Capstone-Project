@@ -1,23 +1,15 @@
-import TestForm from "./TestForm"
-import { useState } from "react"
-export default function Top(){
-    const [name, setName] = useState('')
+import TestForm from './TestForm';
+import { useState } from 'react';
+export default function Top() {
+  const [name, setName] = useState('');
 
-    let handleInput = (e) => {
-        setName(e.target.value)
-    }
+  return (
+    <>
+      <TestForm name={name} setName={setName} />
 
-    let handleSubmit = (e) => {
-        e.preventDefault();
-    }
-
-    return(
-      <>
-        <TestForm />
-
-        <div>
-            <p>Welcome! {name}</p>
-        </div>
-      </>
-    )
+      <div>
+        <p>Welcome! {name}</p>
+      </div>
+    </>
+  );
 }
