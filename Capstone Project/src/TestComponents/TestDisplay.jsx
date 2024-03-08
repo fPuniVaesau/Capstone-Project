@@ -1,4 +1,4 @@
-
+import styles from "./TestDisplay.module.css"
 export default function TestDisplay({guestList}){
     return(
         <div>
