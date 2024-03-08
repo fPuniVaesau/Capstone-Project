@@ -4,7 +4,9 @@ export default function TestDisplay({ guestList }) {
     <div className={styles.container}>
       <div>
         {guestList.map((person) => (
-          <p>{person}</p>
+          <div className={styles.taskContainer}>
+            <p>{person}</p>
+          </div>
         ))}
       </div>
     </div>
