@@ -12,8 +12,8 @@ export default function TestForm({setName, name, setGuestList, guestList}) {
   };
 
   return (
-    <div>
-      <form action='' onSubmit={handleSubmit}>
+    <div className={styles.formContainer}>
+      <form className={styles.form} onSubmit={handleSubmit}>
         <label htmlFor=''>Name</label>
         <input type='text' onChange={handleInput} value={name} />
         <button>Show Name</button>

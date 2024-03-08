@@ -1,0 +1,9 @@
+.formContainer {
+  /* background-color: navy; */
+  border: 1px solid tomato;
+}
+
+.form {
+  display: flex;
+  gap: 0.75rem;
+}
