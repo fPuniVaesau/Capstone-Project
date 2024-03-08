@@ -1,10 +1,12 @@
-export default function TestForm({setName, name}) {
+export default function TestForm({setName, name, setGuestList, guestList}) {
   let handleInput = (e) => {
     setName(e.target.value);
   };
 
   let handleSubmit = (e) => {
     e.preventDefault();
+    setGuestList([...guestList, name]);
+    setName('');
   };
 
   return (
