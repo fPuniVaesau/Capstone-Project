@@ -1,8 +1,8 @@
 
-export default function TestDisplay({displayName}){
+export default function TestDisplay({guestList}){
     return(
         <div>
-            <h1>{displayName}</h1>
+            {guestList.map(person=>(<p>{person}</p>))}
         </div>
     )
 }

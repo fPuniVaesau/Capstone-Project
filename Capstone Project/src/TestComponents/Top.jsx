@@ -8,7 +8,7 @@ export default function Top() {
   return (
     <>
       <TestForm name={name} setName={setName} setGuestList={setGuestList} guestList={guestlist}/>
-      <TestDisplay displayName={guestlist}/>
+      <TestDisplay guestList={guestlist}/>
     </>
   );
 }
