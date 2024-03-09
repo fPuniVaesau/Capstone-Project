@@ -8,9 +8,6 @@
 }
 
 .taskContainer {
-  display: inline-block;
-  width: 15em;
-
   border: 1px solid rgb(0, 0, 0);
   border-radius: 5px;
   margin: 5px;
