@@ -1,11 +1,11 @@
 import styles from './TestDisplay.module.css';
-export default function TestDisplay({ guestList }) {
+export default function TestDisplay({ taskList }) {
   return (
     <div className={styles.container}>
       <div>
-        {guestList.map((person) => (
+        {taskList.map((task) => (
           <div className={styles.taskContainer}>
-            <p>{person}</p>
+            <p>{task}</p>
           </div>
         ))}
       </div>

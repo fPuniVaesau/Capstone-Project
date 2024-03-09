@@ -5,7 +5,7 @@ import styles from './Top.module.css';
 
 export default function Top() {
   const [name, setName] = useState('');
-  const [guestlist, setGuestList] = useState([]);
+  const [taskList, setTaskList] = useState([]);
 
   return (
     <div className={styles.container}>
@@ -13,10 +13,10 @@ export default function Top() {
       <TestForm
         name={name}
         setName={setName}
-        setGuestList={setGuestList}
-        guestList={guestlist}
+        setTaskList={setTaskList}
+        taskList={taskList}
       />
-      <TestDisplay guestList={guestlist} />
+      <TestDisplay taskList={taskList} />
     </div>
   );
 }

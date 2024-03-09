@@ -1,13 +1,13 @@
 import styles from "./TestForm.module.css"
 
-export default function TestForm({setName, name, setGuestList, guestList}) {
+export default function TestForm({setName, name, setTaskList, taskList}) {
   let handleInput = (e) => {
     setName(e.target.value);
   };
 
   let handleSubmit = (e) => {
     e.preventDefault();
-    setGuestList([...guestList, name]);
+    setTaskList([...taskList, name]);
     setName('');
   };
 
