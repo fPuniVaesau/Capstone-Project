@@ -1,6 +1,6 @@
-import styles from "./TestForm.module.css"
+import styles from './TestForm.module.css';
 
-export default function TestForm({setName, name, setTaskList, taskList}) {
+export default function TestForm({ setName, name, setTaskList, taskList }) {
   let handleInput = (e) => {
     setName(e.target.value);
   };
@@ -15,7 +15,12 @@ export default function TestForm({setName, name, setTaskList, taskList}) {
     <div className={styles.formContainer}>
       <form className={styles.form} onSubmit={handleSubmit}>
         <label htmlFor=''>Task: </label>
-        <input className={styles.inputField} type='text' onChange={handleInput} value={name} />
+        <input
+          className={styles.inputField}
+          type='text'
+          onChange={handleInput}
+          value={name}
+        />
         <button>+</button>
       </form>
     </div>
