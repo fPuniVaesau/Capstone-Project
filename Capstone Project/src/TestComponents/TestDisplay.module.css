@@ -63,7 +63,8 @@
 
 .completeAndClose:hover {
   text-decoration: none;
-  background-color: rgb(57, 149, 179);
+  background-color: rgb(255, 255, 255);
+  color: #000;
 }
 
 .completeAndClose:active {
