@@ -12,6 +12,8 @@
   gap: 0.75rem;
 }
 
-.inputField{
+.inputField {
+  display: block;
+  border: none;
   width: 100%;
 }
