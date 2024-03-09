@@ -29,6 +29,8 @@
   /* border: 1px solid goldenrod; */
 }
 
-button {
-  margin-right: 2px;
+.completeAndClose {
+  padding: 3px;
+  margin-right: 3px;
+  background-color: none;
 }
