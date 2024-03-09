@@ -22,9 +22,14 @@
   outline: none;
 }
 
-.submitbutton{
+.submitButton{
   cursor: pointer;
   transition: 0.3s ease-in-out;
+  border: none;
+}
+
+.submitButton:hover{
+ border: 3px solid red;
 }
 
 

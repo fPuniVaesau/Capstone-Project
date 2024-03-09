@@ -22,7 +22,7 @@ export default function TestForm({ setName, name, setTaskList, taskList }) {
           value={name}
           placeholder='What tasks do we have today?'
         />
-        <button className={styles.submitbutton}>+</button>
+        <button className={styles.submitButton}>+</button>
       </form>
     </div>
   );
