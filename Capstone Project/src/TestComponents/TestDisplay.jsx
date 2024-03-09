@@ -10,8 +10,8 @@ export default function TestDisplay({ taskList }) {
           <div className={styles.taskContainer}>
             <p key={task} className={styles.taskTitle}>{task}</p>
             <div className={styles.buttonContainer}>
-              <button>Complete</button>
-              <button onClick={handleDelete}>X</button>
+              <button className={styles.completeAndClose}>Complete</button>
+              <button className={styles.completeAndClose} onClick={handleDelete}>X</button>
             </div>
           </div>
         ))}
