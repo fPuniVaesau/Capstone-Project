@@ -6,7 +6,7 @@ export default function TestDisplay({ taskList }) {
         {taskList.map((task) => (
           <div className={styles.taskContainer}>
             <p className={styles.taskTitle}>{task}</p>
-            <div>
+            <div className={styles.buttonContainer}>
                 <button>Complete</button>
                 <button>X</button>
             </div>

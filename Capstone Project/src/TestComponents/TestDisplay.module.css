@@ -8,6 +8,7 @@
 }
 
 .taskContainer {
+  position: relative;
   display: inline-block;
   width: 15em;
   min-height: 20em;
@@ -24,4 +25,10 @@
   border: 1px solid orangered;
   font-size: 1.5em;
   font-weight: 500;
+}
+
+.buttonContainer {
+  border: 1px solid goldenrod;
+  position: absolute;
+  bottom: 0;
 }
