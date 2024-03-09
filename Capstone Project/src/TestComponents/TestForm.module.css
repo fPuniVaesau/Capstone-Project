@@ -21,3 +21,7 @@
 .inputField:focus{
   outline: none;
 }
+
+.submitbutton{
+  cursor: pointer;
+}
