@@ -17,3 +17,7 @@
   border: none;
   width: 100%;
 }
+
+.inputField:focus{
+  outline: none;
+}
