@@ -14,7 +14,7 @@ export default function TestForm({ setName, name, setTaskList, taskList }) {
   return (
     <div className={styles.formContainer}>
       <form className={styles.form} onSubmit={handleSubmit}>
-        <label htmlFor=''>Task: </label>
+        <label htmlFor=''>⚡️</label>
         <input
           className={styles.inputField}
           type='text'
