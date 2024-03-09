@@ -21,12 +21,13 @@
 .taskTitle {
   margin: 0;
   padding: 0;
-  border: 1px solid orangered;
+  /* border: 1px solid orangered; */
   font-size: 1.5em;
   font-weight: 500;
+  margin-bottom: 3px;
 }
 
 .buttonContainer {
-  border: 1px solid goldenrod;
+  /* border: 1px solid goldenrod; */
   
 }
