@@ -20,6 +20,7 @@ export default function TestForm({ setName, name, setTaskList, taskList }) {
           type='text'
           onChange={handleInput}
           value={name}
+          placeholder='What tasks do we have today?'
         />
         <button>+</button>
       </form>
