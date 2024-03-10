@@ -4,7 +4,9 @@ export default function ListItems({ taskItem, taskList, setTaskList, setTaskItem
 
   let handleTest = (task) => {
     console.log(task);
-    
+    setTaskList(
+      taskList.filter(taskInList => taskInList !== task)
+    );
   }
 
   return (
