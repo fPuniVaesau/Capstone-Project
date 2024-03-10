@@ -17,8 +17,8 @@ export default function ListItems({
     console.log(task);
   };
 
-  let handleClick = (task) => {
-      alert("testing")
+  let handleClick = (taskName) => {
+    console.log(taskName)
   }
 
   return (
@@ -26,7 +26,7 @@ export default function ListItems({
       {taskList.map((task) => (
         <div className={styles.taskContainer}>
           <p key={task.name} className={styles.taskTitle}>
-            <span onClick={()=>{handleClick(task)}}>{task.name}</span>
+            <span onClick={()=>{handleClick(task.name)}}>{task.name}</span>
           </p>
 
           <div className={styles.buttonContainer}>
