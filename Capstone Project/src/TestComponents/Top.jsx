@@ -4,9 +4,9 @@ import { useState } from 'react';
 import styles from './Top.module.css';
 
 export default function Top() {
-  const [taskItem, setTaskItem] = useState('');
+  const [taskItem, setTaskItem] = useState({name: '', taskComplete: false});
   const [taskList, setTaskList] = useState([]);
-  const [taskCount, setTaskCount] = useState = useState(0)
+  const [taskCount, setTaskCount] = useState(0);
 
   return (
     <div className={styles.container}>
@@ -16,6 +16,8 @@ export default function Top() {
         setTaskItem={setTaskItem}
         setTaskList={setTaskList}
         taskList={taskList}
+        taskCount={taskCount}
+        setTaskCount={setTaskCount}
       />
       <ListItems
         className={styles.test}

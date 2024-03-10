@@ -2,28 +2,28 @@ import styles from './ListItems.module.css';
 
 export default function ListItems({ taskItem, taskList, setTaskList, setTaskItem, taskCount, setTaskCount}) {
 
-  let handleTest = (task) => {
+  let handleDelete = (task) => {
     console.log(task);
     setTaskList(
       taskList.filter(taskInList => taskInList !== task)
     );
   }
 
-  let handleCounter = () => {
-    
+  let handleCounter = (task) => {
+    console.log(task)
   }
 
   return (
     <div className={styles.wrapper}>
       {taskList.map((task) => (
         <div className={styles.taskContainer}>
-          <p key={task} className={styles.taskTitle}>
-            {task}
+          <p key={task.name} className={styles.taskTitle}>
+            {task.name}
           </p>
 
           <div className={styles.buttonContainer}>
-            <button className={styles.completeAndClose} onClick={()=> {handleCounter}}>Complete</button>
-            <button className={styles.completeAndClose} onClick={()=>{handleTest(task)}}>X</button>
+            <button className={styles.completeAndClose} onClick={()=> {handleCounter(task)}}>Complete</button>
+            <button className={styles.completeAndClose} onClick={()=>{handleDelete(task)}}>X</button>
           </div>
         </div>
       ))}

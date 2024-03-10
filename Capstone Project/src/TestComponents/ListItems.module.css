@@ -82,3 +82,7 @@
     padding: 12px 50px;
   }
 }
+
+.toggleBackgroundColor{
+  background-color: tomato;
+}

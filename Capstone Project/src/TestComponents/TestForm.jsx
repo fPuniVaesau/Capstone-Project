@@ -1,14 +1,14 @@
 import styles from './TestForm.module.css';
 
-export default function TestForm({ setTaskItem, taskItem, setTaskList, taskList }) {
+export default function TestForm({ setTaskItem, taskItem, setTaskList, taskList, taskCount, setTaskCount }) {
   let handleInput = (e) => {
-    setTaskItem(e.target.value);
+    setTaskItem({name:e.target.value, taskComplete: false});
   };
 
   let handleSubmit = (e) => {
     e.preventDefault();
-    if(taskItem !== ""){setTaskList([...taskList, taskItem]);} else{console.log("Please add task")}
-    setTaskItem('');
+    if(taskItem.name !== ""){setTaskList([...taskList, taskItem]);} else{console.log("Please add task")}
+    setTaskItem({name: "", taskComplete: false});
   };
 
   return (
@@ -19,7 +19,7 @@ export default function TestForm({ setTaskItem, taskItem, setTaskList, taskList 
           className={styles.inputField}
           type='text'
           onChange={handleInput}
-          value={taskItem}
+          value={taskItem.name}
           placeholder='What tasks do we have today?'
         />
         <button className={styles.submitButton}>+</button>
