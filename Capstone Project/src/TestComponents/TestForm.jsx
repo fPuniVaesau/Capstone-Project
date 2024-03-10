@@ -1,14 +1,25 @@
 import styles from './TestForm.module.css';
 
-export default function TestForm({ setTaskItem, taskItem, setTaskList, taskList, taskCount, setTaskCount }) {
+export default function TestForm({
+  setTaskItem,
+  taskItem,
+  setTaskList,
+  taskList,
+  taskCount,
+  setTaskCount,
+}) {
   let handleInput = (e) => {
-    setTaskItem({name:e.target.value, taskComplete: false});
+    setTaskItem({ name: e.target.value, taskComplete: false });
   };
 
   let handleSubmit = (e) => {
     e.preventDefault();
-    if(taskItem.name !== ""){setTaskList([...taskList, taskItem]);} else{console.log("Please add task")}
-    setTaskItem({name: "", taskComplete: false});
+    if (taskItem.name !== '') {
+      setTaskList([...taskList, taskItem]);
+    } else {
+      console.log('Please add task');
+    }
+    setTaskItem({ name: '', taskComplete: false });
   };
 
   return (
