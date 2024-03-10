@@ -1,6 +1,6 @@
 import styles from "./ListItems.module.css"
 
-export default function ListItems() {
+export default function ListItems({taskList, setTaskList}) {
   return (
     <div>
       {taskList.map((task) => (
