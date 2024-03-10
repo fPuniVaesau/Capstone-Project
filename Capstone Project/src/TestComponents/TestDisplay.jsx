@@ -6,7 +6,7 @@ export default function TestDisplay({ taskList, setTaskList }) {
     <div className={styles.container}>
       <ListItems taskList={taskList} setTaskList={setTaskList} />
 
-      <ButtonComponents />
+      <ButtonComponents taskList={taskList} setTaskList={setTaskList}/>
     </div>
   );
 }

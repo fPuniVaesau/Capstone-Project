@@ -1,6 +1,6 @@
 import styles from "./ButtonComponents.module.css"
 
-export default function ButtonComponents() {
+export default function ButtonComponents({taskList, setTaskList}) {
   return (
     <div className={styles.buttonContainer}>
       <button className={styles.completeAndClose}>Complete</button>
