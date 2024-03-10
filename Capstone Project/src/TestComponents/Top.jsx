@@ -4,15 +4,15 @@ import { useState } from 'react';
 import styles from './Top.module.css';
 
 export default function Top() {
-  const [name, setName] = useState('');
+  const [taskItem, setTaskItem] = useState('');
   const [taskList, setTaskList] = useState([]);
 
   return (
     <div className={styles.container}>
       <h1>💣 Tasks</h1>
       <TestForm
-        name={name}
-        setName={setName}
+        taskItem={taskItem}
+        setTaskItem={setTaskItem}
         setTaskList={setTaskList}
         taskList={taskList}
       />
