@@ -1,6 +1,7 @@
 import styles from './ListItems.module.css';
 
 export default function ListItems({ taskItem, taskList, setTaskList, setTaskItem }) {
+  
   let handleDelete = (taskItem) => {
     console.log(taskItem)
   }
