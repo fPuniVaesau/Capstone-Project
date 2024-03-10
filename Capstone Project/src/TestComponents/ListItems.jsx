@@ -2,6 +2,11 @@ import styles from './ListItems.module.css';
 
 export default function ListItems({ taskItem, taskList, setTaskList, setTaskItem }) {
 
+  let handleTest = (task) => {
+    console.log(task);
+    
+  }
+
   return (
     <div className={styles.wrapper}>
       {taskList.map((task) => (
@@ -12,7 +17,7 @@ export default function ListItems({ taskItem, taskList, setTaskList, setTaskItem
 
           <div className={styles.buttonContainer}>
             <button className={styles.completeAndClose}>Complete</button>
-            <button className={styles.completeAndClose}>X</button>
+            <button className={styles.completeAndClose} onClick={()=>{handleTest(task)}}>X</button>
           </div>
         </div>
       ))}
