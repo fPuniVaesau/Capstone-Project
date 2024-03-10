@@ -1,4 +1,4 @@
-import
+import styles from "./ListItems.module.css"
 
 export default function ListItems() {
   return (
