@@ -7,7 +7,7 @@ export default function TestForm({ setName, name, setTaskList, taskList }) {
 
   let handleSubmit = (e) => {
     e.preventDefault();
-    setTaskList([...taskList, name]);
+    if(name !== ""){setTaskList([...taskList, name]);} else{console.log("Please add task")}
     setName('');
   };
 

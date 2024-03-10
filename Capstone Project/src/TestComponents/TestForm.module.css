@@ -18,18 +18,19 @@
   width: 100%;
 }
 
-.inputField:focus{
+.inputField:focus {
   outline: none;
 }
 
-.submitButton{
+.submitButton {
   cursor: pointer;
   transition: 0.3s ease-in-out;
   border: none;
+  border-radius: 7px;
+  font-size: 1.25em;
 }
 
-.submitButton:hover{
- border: 3px solid red;
+.submitButton:hover {
+  background-color: #000;
+  color: #fff;
 }
-
-
