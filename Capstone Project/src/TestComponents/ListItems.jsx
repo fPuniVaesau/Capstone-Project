@@ -1,6 +1,7 @@
-import styles from "./ListItems.module.css"
+import ButtonComponents from './ButtonComponents';
+import styles from './ListItems.module.css';
 
-export default function ListItems({taskList, setTaskList}) {
+export default function ListItems({ taskList, setTaskList }) {
   return (
     <div>
       {taskList.map((task) => (
@@ -8,6 +9,7 @@ export default function ListItems({taskList, setTaskList}) {
           <p key={task} className={styles.taskTitle}>
             {task}
           </p>
+          <ButtonComponents taskList={taskList} setTaskList={setTaskList} />
         </div>
       ))}
     </div>

@@ -28,9 +28,12 @@
   border: none;
   border-radius: 7px;
   font-size: 1.25em;
+  outline: 1.5px dotted #000;
+  background-color: none;
 }
 
 .submitButton:hover {
   background-color: #000;
   color: #fff;
+  outline: none;
 }

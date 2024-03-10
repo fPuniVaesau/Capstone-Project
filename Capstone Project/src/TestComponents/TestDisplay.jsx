@@ -5,7 +5,6 @@ export default function TestDisplay({ taskList, setTaskList }) {
   return (
     <div className={styles.container}>
       <ListItems taskList={taskList} setTaskList={setTaskList} />
-      <ButtonComponents taskList={taskList} setTaskList={setTaskList} />
     </div>
   );
 }
