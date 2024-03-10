@@ -16,7 +16,7 @@ export default function Top() {
         setTaskList={setTaskList}
         taskList={taskList}
       />
-      <TestDisplay taskList={taskList} />
+      <TestDisplay taskList={taskList} setTaskList={setTaskList}/>
     </div>
   );
 }

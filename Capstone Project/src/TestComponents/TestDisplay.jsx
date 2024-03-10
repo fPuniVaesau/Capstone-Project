@@ -1,7 +1,7 @@
 import styles from './TestDisplay.module.css';
-export default function TestDisplay({ taskList }) {
-    const handleDelete = () => {
-        console.log(taskList)
+export default function TestDisplay({ taskList, setTaskList }) {
+    const handleDelete = (task) => {
+        console.log(task)
     }
   return (
     <div className={styles.container}>
@@ -11,7 +11,7 @@ export default function TestDisplay({ taskList }) {
             <p key={task} className={styles.taskTitle}>{task}</p>
             <div className={styles.buttonContainer}>
               <button className={styles.completeAndClose}>Complete</button>
-              <button className={styles.completeAndClose} onClick={handleDelete}>X</button>
+              <button className={styles.completeAndClose} onClick={()=>handleDelete(task)}>X</button>
             </div>
           </div>
         ))}
