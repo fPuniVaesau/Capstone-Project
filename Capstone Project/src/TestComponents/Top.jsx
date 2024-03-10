@@ -1,5 +1,5 @@
 import TestForm from './TestForm';
-import TestDisplay from './TestDisplay';
+import ListItems from './ListItems';
 import { useState } from 'react';
 import styles from './Top.module.css';
 
@@ -16,7 +16,13 @@ export default function Top() {
         setTaskList={setTaskList}
         taskList={taskList}
       />
-      <TestDisplay taskList={taskList} setTaskList={setTaskList} />
+      <ListItems
+        className={styles.test}
+        taskItem={taskItem}
+        setTaskItem={setTaskItem}
+        taskList={taskList}
+        setTaskList={setTaskList}
+      />
     </div>
   );
 }
