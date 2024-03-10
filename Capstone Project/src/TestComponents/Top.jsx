@@ -6,6 +6,7 @@ import styles from './Top.module.css';
 export default function Top() {
   const [taskItem, setTaskItem] = useState('');
   const [taskList, setTaskList] = useState([]);
+  const [taskCount, setTaskCount] = useState = useState(0)
 
   return (
     <div className={styles.container}>
@@ -22,6 +23,7 @@ export default function Top() {
         setTaskItem={setTaskItem}
         taskList={taskList}
         setTaskList={setTaskList}
+        
       />
     </div>
   );
