@@ -1,7 +1,7 @@
-import ButtonComponents from './ButtonComponents';
 import styles from './ListItems.module.css';
 
-export default function ListItems({ taskList, setTaskList }) {
+export default function ListItems({ taskItem, taskList, setTaskList }) {
+
   return (
     <div>
       {taskList.map((task) => (
@@ -9,7 +9,11 @@ export default function ListItems({ taskList, setTaskList }) {
           <p key={task} className={styles.taskTitle}>
             {task}
           </p>
-          <ButtonComponents taskList={taskList} setTaskList={setTaskList} />
+
+          <div className={styles.buttonContainer}>
+            <button className={styles.completeAndClose}>Complete</button>
+            <button className={styles.completeAndClose}>X</button>
+          </div>
         </div>
       ))}
     </div>
