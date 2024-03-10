@@ -5,24 +5,18 @@ export default function TestDisplay({ taskList, setTaskList }) {
   };
   return (
     <div className={styles.container}>
-      <div>
-        {taskList.map((task) => (
-          <div className={styles.taskContainer}>
-            <p key={task} className={styles.taskTitle}>
-              {task}
-            </p>
-            <div className={styles.buttonContainer}>
-              <button className={styles.completeAndClose}>Complete</button>
-              <button
-                className={styles.completeAndClose}
-                onClick={() => handleDelete(task)}
-              >
-                X
-              </button>
-            </div>
-          </div>
-        ))}
-      </div>
+     
     </div>
   );
 }
+
+
+<div className={styles.buttonContainer}>
+<button className={styles.completeAndClose}>Complete</button>
+<button
+  className={styles.completeAndClose}
+  onClick={() => handleDelete(task)}
+>
+  X
+</button>
+</div>
