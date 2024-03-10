@@ -23,7 +23,8 @@ export default function Top() {
         setTaskItem={setTaskItem}
         taskList={taskList}
         setTaskList={setTaskList}
-        
+        taskCount={taskCount}
+        setTaskCount={setTaskCount}
       />
     </div>
   );
