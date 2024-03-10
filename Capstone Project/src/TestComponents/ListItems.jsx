@@ -22,7 +22,7 @@ export default function ListItems({
       {taskList.map((task) => (
         <div className={styles.taskContainer}>
           <p key={task.name} className={styles.taskTitle}>
-            {task.name}
+            <span onClick={}>{task.name}</span>
           </p>
 
           <div className={styles.buttonContainer}>
