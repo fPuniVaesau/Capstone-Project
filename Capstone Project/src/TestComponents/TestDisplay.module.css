@@ -26,9 +26,10 @@
   margin-bottom: 3px;
 }
 
-/* .buttonContainer {
-  border: 1px solid goldenrod;
-} */
+.buttonContainer {
+  margin-top: 10px;
+  /* border: 1px solid goldenrod; */
+}
 
 .completeAndClose {
   appearance: button;
@@ -42,7 +43,7 @@
   cursor: pointer;
   display: inline-block;
   font-family: monospace, Arial, sans-serif;
-  font-size: .75em;
+  font-size: 0.75em;
   font-weight: 300;
   line-height: 10px;
   margin: 0 5px 10px 0;
