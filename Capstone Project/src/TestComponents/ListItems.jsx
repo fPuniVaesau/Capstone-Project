@@ -13,10 +13,6 @@ export default function ListItems({
     setTaskList(taskList.filter((taskInList) => taskInList !== task));
   };
 
-  let handleCounter = (task) => {
-    console.log(task);
-  };
-
   let handleClick = (taskName) => {
     console.log(taskName)
   }
@@ -32,9 +28,6 @@ export default function ListItems({
           <div className={styles.buttonContainer}>
             <button
               className={styles.completeAndClose}
-              onClick={() => {
-                handleCounter(task);
-              }}
             >
               Complete
             </button>
