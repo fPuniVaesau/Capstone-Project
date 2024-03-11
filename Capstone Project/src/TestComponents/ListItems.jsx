@@ -22,12 +22,13 @@ export default function ListItems({
       {taskList.map((task) => (
         <div className={styles.taskContainer}>
           <p key={task.name} className={styles.taskTitle}>
-            <span onClick={()=>{handleClick(task.name)}}>{task.name}</span>
+            {task.name}
           </p>
 
           <div className={styles.buttonContainer}>
             <button
               className={styles.completeAndClose}
+              onClick={()=>{handleClick(task.name)}}
             >
               Complete
             </button>
