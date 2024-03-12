@@ -14,8 +14,8 @@ export default function ListItems({
   };
 
   let handleClick = (taskName) => {
-    console.log(taskName)
-  }
+    console.log(taskName);
+  };
 
   return (
     <div className={styles.wrapper}>
@@ -28,7 +28,9 @@ export default function ListItems({
           <div className={styles.buttonContainer}>
             <button
               className={styles.completeAndClose}
-              onClick={()=>{handleClick(task.name)}}
+              onClick={() => {
+                handleClick(task.name);
+              }}
             >
               Complete
             </button>
@@ -38,7 +40,7 @@ export default function ListItems({
                 handleDelete(task);
               }}
             >
-              X
+              Delete
             </button>
           </div>
         </div>
