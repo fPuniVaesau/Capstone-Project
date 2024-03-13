@@ -13,7 +13,7 @@ export default function ListItems({
     setTaskList(taskList.filter((taskInList) => taskInList !== task));
   };
 
-  let handleClick = (taskName) => {
+  let handleTaskComplete = (taskName) => {
     console.log(taskName);
   };
 
