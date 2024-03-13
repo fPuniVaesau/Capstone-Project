@@ -9,8 +9,8 @@ export default function ListItems({
   setTaskCount,
 }) {
   let handleDelete = (task) => {
-    console.log(task);
     setTaskList(taskList.filter((taskInList) => taskInList !== task));
+    console.log(task)
   };
 
   let handleTaskComplete = (taskName) => {
