@@ -10,7 +10,7 @@ export default function ListItems({
 }) {
   let handleDelete = (task) => {
     setTaskList(taskList.filter((taskInList) => taskInList !== task));
-    console.log(task)
+    console.log(task);
   };
 
   let handleTaskComplete = (taskName) => {
@@ -27,7 +27,9 @@ export default function ListItems({
 
           <div className={styles.buttonContainer}>
             <button
-              className={task.taskComplete ? styles.completeAndClose : styles.test}
+              className={
+                task.taskComplete ? styles.test : styles.completeAndClose
+              }
               onClick={() => {
                 handleTaskComplete(task);
               }}
