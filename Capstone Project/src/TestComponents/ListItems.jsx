@@ -15,6 +15,7 @@ export default function ListItems({
 
   let handleTaskComplete = (taskName) => {
     console.log(taskName);
+    taskList.filter(taskInList=>(console.log(taskInList)));
   };
 
   return (
