@@ -15,7 +15,9 @@ export default function ListItems({
 
   let handleTaskComplete = (taskName) => {
     console.log(taskName);
-    taskList.filter(taskInList=>(console.log(taskInList)));
+    taskInList.filter((taskToModify)=> (
+      taskToModify === taskName ? console.log(`we want to modify this one: ${taskName}`) : console.log("What went wrong?")
+    ))
   };
 
   return (
