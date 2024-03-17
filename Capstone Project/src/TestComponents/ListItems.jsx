@@ -31,7 +31,7 @@ export default function ListItems({
                styles.completeAndClose
               }
               onClick={() => {
-                handleTaskComplete(task);
+                handleTaskComplete(task.name);
               }}
             >
               Complete
