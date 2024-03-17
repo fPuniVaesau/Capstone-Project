@@ -28,7 +28,7 @@ export default function ListItems({
           <div className={styles.buttonContainer}>
             <button
               className={
-                task.taskComplete ? styles.test : styles.completeAndClose
+               styles.completeAndClose
               }
               onClick={() => {
                 handleTaskComplete(task);
