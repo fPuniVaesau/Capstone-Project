@@ -19,7 +19,7 @@ export default function ListItems({
       console.log(
         toggleTask.name === taskName
           ? console.log(toggleTask.taskComplete)
-          : console.log('Task not found!')
+          : console.log('Task not found! This is not the targeted task!')
       )
     );
   };
