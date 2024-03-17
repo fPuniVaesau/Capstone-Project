@@ -15,7 +15,13 @@ export default function ListItems({
 
   let handleTaskComplete = (taskName) => {
     console.log(`Name of item that is clicked: ${taskName}`);
-    taskList.map(toggleTask=>(console.log(toggleTask.name === taskName ? console.log(toggleTask.taskComplete) : console.log("Task not found!"))));
+    taskList.map((toggleTask) =>
+      console.log(
+        toggleTask.name === taskName
+          ? console.log(toggleTask.taskComplete)
+          : console.log('Task not found!')
+      )
+    );
   };
 
   return (
@@ -28,9 +34,7 @@ export default function ListItems({
 
           <div className={styles.buttonContainer}>
             <button
-              className={
-               styles.completeAndClose
-              }
+              className={styles.completeAndClose}
               onClick={() => {
                 handleTaskComplete(task.name);
               }}
