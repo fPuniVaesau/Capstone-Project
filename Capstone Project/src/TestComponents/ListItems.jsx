@@ -14,7 +14,7 @@ export default function ListItems({
   };
 
   let handleTaskComplete = (taskName) => {
-    console.log(taskName);
+    console.log(`Name of item that is clicked: ${taskName}`);
   };
 
   return (
