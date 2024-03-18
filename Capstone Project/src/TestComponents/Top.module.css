@@ -7,9 +7,11 @@
   height: 100dvh;
 }
 
-.titleContainer {
+/* .titleContainer {
   border: 1px solid tomato;
-  display: flex;
-  align-items: center;
-  justify-items: center;
+} */
+
+.counter {
+  /* color: red; */
+  margin: 0 auto 10px;
 }
