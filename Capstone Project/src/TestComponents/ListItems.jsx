@@ -16,12 +16,7 @@ export default function ListItems({
   let handleTaskComplete = (taskName) => {
     console.log(`Name of item that is clicked: ${taskName}`);
 
-    taskList.map((toggleTask) =>
     
-        toggleTask.name === taskName
-        ? { ...toggleTask, taskComplete: !toggleTask.taskComplete }
-        : console.log(toggleTask)
-    );
   };
 
   return (
