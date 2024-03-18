@@ -22,13 +22,14 @@ export default function ListItems({
     setTaskList(mapped)
     console.log(taskList)
   };
+  
 
   return (
     <div className={styles.wrapper}>
       {taskList.map((task) => (
         <div className={styles.taskContainer}>
           <p key={task.name} className={styles.taskTitle}>
-            {task.name}
+            <span className={task.taskComplete? styles.toggleComplete : ""}>{task.name}</span>
           </p>
 
           <div className={styles.buttonContainer}>
