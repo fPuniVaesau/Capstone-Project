@@ -18,7 +18,7 @@ export default function ListItems({
     taskList.map((toggleTask) =>
       console.log(
         toggleTask.name === taskName
-          ? console.log(toggleTask.taskComplete)
+          ? console.log(toggleTask)
           : console.log('Task not found! This is not the targeted task!')
       )
     );
