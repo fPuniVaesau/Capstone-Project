@@ -6,3 +6,10 @@
   border-radius: 10px;
   height: 100dvh;
 }
+
+.titleContainer {
+  border: 1px solid tomato;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+}
