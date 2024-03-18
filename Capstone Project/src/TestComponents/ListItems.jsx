@@ -15,12 +15,12 @@ export default function ListItems({
 
   let handleTaskComplete = (taskName) => {
     console.log(`Name of item that is clicked: ${taskName}`);
+
     taskList.map((toggleTask) =>
-      console.log(
+    
         toggleTask.name === taskName
-          ? console.log(toggleTask)
-          : console.log('Task not found! This is not the targeted task!')
-      )
+        ? { ...toggleTask, taskComplete: !toggleTask.taskComplete }
+        : console.log(toggleTask)
     );
   };
 
