@@ -10,7 +10,7 @@ export default function Top() {
 
   return (
     <div className={styles.container}>
-      <div >
+      <div className={styles.titleContainer}>
       <h1>💣 Tasks</h1>
       <p>{taskCount}</p>
       </div>
