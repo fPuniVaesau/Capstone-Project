@@ -10,7 +10,11 @@ export default function Top() {
 
   return (
     <div className={styles.container}>
+      <div >
       <h1>💣 Tasks</h1>
+      <p>{taskCount}</p>
+      </div>
+      
       <TestForm
         taskItem={taskItem}
         setTaskItem={setTaskItem}
