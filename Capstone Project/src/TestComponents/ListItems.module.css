@@ -24,14 +24,15 @@
   margin-bottom: 3px;
 }
 
-
 .buttonContainer {
   margin-top: 10px;
   /* border: 1px solid goldenrod; */
 }
 
-.toggleComplete{
+.toggleComplete {
   text-decoration: line-through;
+  color: hsla(0, 0%, 55%, 0.735);
+  transition: all 0.3s ease-in-out;
 }
 
 .completeAndClose {
@@ -88,8 +89,6 @@
   }
 }
 
-.toggleBackgroundColor{
+.toggleBackgroundColor {
   background-color: tomato;
 }
-
-
