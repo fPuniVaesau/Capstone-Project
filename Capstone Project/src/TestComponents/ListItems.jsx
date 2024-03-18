@@ -14,11 +14,13 @@ export default function ListItems({
   };
 
   let handleTaskComplete = (taskName) => {
-
-    taskList.map(selectedTask => {
-      taskName === selectedTask.name ? {...selectedTask, taskComplete: !selectedTask.taskComplete} : console.log("error!")
-      console.log(selectedTask);
-    })
+    let mapped = taskList.map((object) =>
+      taskName === object.name
+        ? { ...object, taskComplete: !object.taskComplete }
+        : object
+    );
+    setTaskList(mapped)
+    console.log(taskList)
   };
 
   return (
