@@ -10,7 +10,7 @@ export default function ListItems({
 }) {
   let handleDelete = (task) => {
     setTaskList(taskList.filter((taskInList) => taskInList !== task));
-    setTaskCount(taskCount-1)
+    setTaskCount(taskCount - 1);
     console.log(task);
   };
 
@@ -20,17 +20,18 @@ export default function ListItems({
         ? { ...object, taskComplete: !object.taskComplete }
         : object
     );
-    setTaskList(mapped)
+    setTaskList(mapped);
     // console.log(taskList)
   };
-  
 
   return (
     <div className={styles.wrapper}>
       {taskList.map((task) => (
         <div className={styles.taskContainer}>
           <p key={task.name} className={styles.taskTitle}>
-            <span className={task.taskComplete? styles.toggleComplete : ""}>{task.name}</span>
+            <span className={task.taskComplete ? styles.toggleComplete : ''}>
+              {task.name}
+            </span>
           </p>
 
           <div className={styles.buttonContainer}>
