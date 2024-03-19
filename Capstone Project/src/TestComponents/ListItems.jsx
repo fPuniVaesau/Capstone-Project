@@ -10,7 +10,7 @@ export default function ListItems({
 }) {
   let handleDelete = (task) => {
     setTaskList(taskList.filter((taskInList) => taskInList !== task));
-    setTaskCount(task.taskComplete ? taskCount : taskCount - 1);
+    setTaskCount(taskCount - 1);
     console.log(task);
   };
 
@@ -21,7 +21,6 @@ export default function ListItems({
         : object
     );
     setTaskList(mapped);
-    setTaskCount(taskCount - 1);
     // console.log(taskList)
   };
 
