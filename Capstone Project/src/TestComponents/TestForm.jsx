@@ -16,7 +16,7 @@ export default function TestForm({
     e.preventDefault();
     if (taskItem.name !== '') {
       setTaskList([...taskList, taskItem]);
-      setTaskCount(taskCount+1);
+      setTaskCount(taskCount + 1);
     } else {
       console.log('Please add task');
     }
