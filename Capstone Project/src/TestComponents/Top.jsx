@@ -7,16 +7,13 @@ export default function Top() {
   const [taskItem, setTaskItem] = useState({ name: '', taskComplete: false });
   const [taskList, setTaskList] = useState([]);
   const [taskCount, setTaskCount] = useState(0);
-  const [taskDone, setTaskDone] = useState(0);
+
   return (
     <div className={styles.container}>
       <div className={styles.titleContainer}>
         <h1>💣 Tasks</h1>
-        <div>
+
         <p className={styles.counter}>Pending Items: {taskCount}</p>
-        <p className={styles.counter}>Completed Items: {taskDone}</p>
-        </div>
-       
       </div>
 
       <TestForm
@@ -26,8 +23,6 @@ export default function Top() {
         taskList={taskList}
         taskCount={taskCount}
         setTaskCount={setTaskCount}
-        taskDone={taskDone}
-        setTaskDone={setTaskDone}
       />
       <ListItems
         className={styles.test}
@@ -37,8 +32,6 @@ export default function Top() {
         setTaskList={setTaskList}
         taskCount={taskCount}
         setTaskCount={setTaskCount}
-        taskDone={taskDone}
-        setTaskDone={setTaskDone}
       />
     </div>
   );
