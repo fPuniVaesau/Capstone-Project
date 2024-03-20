@@ -12,7 +12,6 @@ export default function Top() {
     <div className={styles.container}>
       <div className={styles.titleContainer}>
         <h1>💣 Tasks</h1>
-
         <p className={styles.counter}>Pending Items: {taskCount}</p>
       </div>
 
