@@ -7,7 +7,7 @@ export default function Top() {
   const [taskItem, setTaskItem] = useState({ name: '', taskComplete: false });
   const [taskList, setTaskList] = useState([]);
   const [taskCount, setTaskCount] = useState(0);
-  const [taskDone, setTaskDone] = useState(0)
+  const [taskDone, setTaskDone] = useState(0);
   return (
     <div className={styles.container}>
       <div className={styles.titleContainer}>
@@ -22,8 +22,8 @@ export default function Top() {
         taskList={taskList}
         taskCount={taskCount}
         setTaskCount={setTaskCount}
-        taskDone
-        setTaskDone
+        taskDone={taskDone}
+        setTaskDone={setTaskDone}
       />
       <ListItems
         className={styles.test}
@@ -33,8 +33,8 @@ export default function Top() {
         setTaskList={setTaskList}
         taskCount={taskCount}
         setTaskCount={setTaskCount}
-        taskDone
-        setTaskDone
+        taskDone={taskDone}
+        setTaskDone={setTaskDone}
       />
     </div>
   );
