@@ -21,7 +21,8 @@ export default function ListItems({
         : object
     );
     setTaskList(mapped);
-    let itemsCompleted = taskList.map(completed => completed.taskComplete).length
+
+    let itemsCompleted = taskList.filter(completed => completed.taskComplete).length
     console.log(itemsCompleted);
   };
 
