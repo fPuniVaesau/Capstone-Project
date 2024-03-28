@@ -5,6 +5,9 @@ export default function App() {
     <>
       <header>
         <nav>
+          <div>
+            <img src="" alt="placeholder" />
+          </div>
           <ul>
             <li>About</li>
             <li>Project</li>
