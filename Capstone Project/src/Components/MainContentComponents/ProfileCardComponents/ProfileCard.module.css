@@ -2,6 +2,10 @@
   /* border: 1px solid orangered; */
 }
 
+.container > * {
+    margin: 0px;
+}
+
 .profileImg {
   display: block;
   object-fit: cover;
@@ -10,3 +14,22 @@
   height: 7rem;
   border-radius: 100em;
 }
+
+.profileName {
+  font-size: 3rem;
+}
+
+.role {
+  font-size: 1.25rem;
+}
+
+.location {
+  font-size: 1rem;
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+
+.bio{
+    margin-bottom: 10px;
+}
+
