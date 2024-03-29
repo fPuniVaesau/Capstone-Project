@@ -1,4 +1,4 @@
-
+import styles from "./NavBarLogo.module.css"
 
 export default function NavBarLogo({imgUrl, altDiscription}){
 
