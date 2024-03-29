@@ -5,7 +5,7 @@
 }
 
 html {
-  background-color: hsla(211, 12%, 48%, 1);
+  background-color: rgba(91, 106, 133, 0.878);
 }
 
 img,
@@ -19,4 +19,5 @@ picture {
 body {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
     Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #F2F2EB;
 }
