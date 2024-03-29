@@ -1,7 +1,7 @@
-.mainContainer{
-    border: 1px solid whitesmoke;
+.mainContainer {
+  border: 1px solid whitesmoke;
 }
 
-.mainContainer > *{
-    border-radius: 10px;
+.mainContainer > * {
+  border-radius: .75rem;
 }
