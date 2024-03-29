@@ -1,7 +1,6 @@
-img{
-    height: 3rem;
-    width: 3rem;
-    display: block;
-    object-fit: cover;
-    
+img {
+  height: 3rem;
+  width: 3rem;
+  display: block;
+  object-fit: cover;
 }
