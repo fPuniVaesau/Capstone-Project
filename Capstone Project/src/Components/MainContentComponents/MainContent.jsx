@@ -1,12 +1,13 @@
 import ProfileCard from './ProfileCardComponents/ProfileCard';
 import Title from './TitleComponents/Title';
 
+
 import styles from "./MainContent.module.css";
 export default function MainContent() {
   return (
     <div className={styles.mainContainer}>
         <ProfileCard
-      imgUrl={'https://avatars.githubusercontent.com/u/126365920?v=4'}
+      imgUrl={""}
       name={'Filo Puni Vaesau'}
       role={'Digital Craftsman | Fullstack Developer'}
       location={'San Francisco, Ca'}
@@ -18,5 +19,6 @@ export default function MainContent() {
 
       <Title mainTitle={"Getting to know the Backend!"}/>
     </div>
+
   );
 }
