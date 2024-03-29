@@ -1,12 +1,12 @@
-
-export default function NavBarList(){
+import styles from "./NavBarList.module.css"
+export default function NavBarList({liOne, liTwo, liThree}){
 
     return(
         <nav>
           <ul>
-            <li>About</li>
-            <li>Project</li>
-            <li>Contact</li>
+            <li>{liOne}</li>
+            <li>{liTwo}</li>
+            <li>{liThree}</li>
           </ul>
         </nav>
     )
