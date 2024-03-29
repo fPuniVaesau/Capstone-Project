@@ -5,9 +5,9 @@ import styles from './MainContent.module.css';
 export default function MainContent() {
   return (
     <div className={styles.mainContainer}>
-      
+
       <ProfileCard
-        imgUrl={''}
+        imgUrl={'https://avatars.githubusercontent.com/u/126365920?v=4'}
         name={'Filo Puni Vaesau'}
         role={'Digital Craftsman | Fullstack Developer'}
         location={'San Francisco, Ca'}
