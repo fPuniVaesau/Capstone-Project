@@ -5,13 +5,7 @@ export default function App() {
     <>
       <header>
         <MainHeader />
-        <nav>
-          <ul>
-            <li>About</li>
-            <li>Project</li>
-            <li>Contact</li>
-          </ul>
-        </nav>
+        
       </header>
     </>
   );
