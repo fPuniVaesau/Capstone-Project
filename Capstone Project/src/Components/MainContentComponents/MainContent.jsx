@@ -13,6 +13,8 @@ export default function MainContent() {
       }
       banner={'https://i.pinimg.com/originals/d4/2b/aa/d42baaecec787840fd2b41fe84c040d8.gif'}
     />
+
+    
     </div>
   );
 }
