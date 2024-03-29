@@ -1,6 +1,5 @@
-img {
-  height: 3rem;
-  width: 3rem;
+.logo {
+  max-height: 3rem;
   display: block;
   object-fit: cover;
 }
