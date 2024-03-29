@@ -3,7 +3,7 @@
 }
 
 .container > * {
-    margin: 0px;
+  margin: 0px;
 }
 
 .profileImg {
@@ -29,7 +29,6 @@
   margin-bottom: 10px;
 }
 
-.bio{
-    margin-bottom: 10px;
+.bio {
+  margin-bottom: 10px;
 }
-
