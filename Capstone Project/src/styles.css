@@ -15,7 +15,6 @@ body {
   color: #f2f2eb;
   /* border: 1px solid tomato; */
   min-height: 100dvh;
-  display: grid;
 }
 
 main {
