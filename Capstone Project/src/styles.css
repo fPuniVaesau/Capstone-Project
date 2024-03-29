@@ -24,3 +24,7 @@ body {
   /* border: 1px solid tomato; */
   min-height: 100dvh;
 }
+
+main {
+  margin-top: 10px;
+}
