@@ -1,13 +1,11 @@
 import './styles.css';
-
+import MainHeader from './Components/HeaderComponents/MainHeader';
 export default function App() {
   return (
     <>
       <header>
+        <MainHeader />
         <nav>
-          <div>
-            <img src="" alt="placeholder" />
-          </div>
           <ul>
             <li>About</li>
             <li>Project</li>
