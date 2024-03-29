@@ -1,7 +1,9 @@
 import ProfileCard from './ProfileCardComponents/ProfileCard';
+import styles from "./MainContent.module.css";
 export default function MainContent() {
   return (
-    <ProfileCard
+    <div className={styles.mainContainer}>
+        <ProfileCard
       imgUrl={'https://avatars.githubusercontent.com/u/126365920?v=4'}
       name={'Filo Puni Vaesau'}
       role={'Digital Craftsman | Fullstack Developer'}
@@ -11,5 +13,6 @@ export default function MainContent() {
       }
       banner={'https://i.pinimg.com/originals/d4/2b/aa/d42baaecec787840fd2b41fe84c040d8.gif'}
     />
+    </div>
   );
 }
