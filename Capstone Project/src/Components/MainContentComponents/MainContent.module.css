@@ -1,6 +1,6 @@
 .mainContainer {
   padding: 10px;
-  border: 1px solid whitesmoke;
+  /* border: 1px solid whitesmoke; */
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 1rem;

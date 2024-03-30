@@ -4,7 +4,7 @@ export default function IntroductionSec() {
   return (
     <div className={styles.container}>
       <div className={styles.infoContainer}>
-      <h3>What is Backend Development?</h3>
+      <h3 className={styles.title}>What is Backend Development?</h3>
       <hr />
       <p>
         When we use the web and access webpages and applications we are greeted

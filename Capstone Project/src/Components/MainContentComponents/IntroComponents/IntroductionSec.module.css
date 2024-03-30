@@ -1,4 +1,7 @@
 .container {
-  border: 1px solid whitesmoke;
+  border: 3px solid whitesmoke;
 }
 
+.title{
+  font-size: 1.5rem;
+}
