@@ -26,6 +26,10 @@ export default function ProfileCard({
           alt='Profile Banner'
         />
       </div>
+      
+      <div>
+        <button>Follow+</button>
+      </div>
     </div>
   );
 }
