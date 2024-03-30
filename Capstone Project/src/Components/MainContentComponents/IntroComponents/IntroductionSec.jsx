@@ -36,9 +36,9 @@ export default function IntroductionSec() {
       </div>
       
 
-      <div className={styles.imgContainer}>
+      {/* <div className={styles.imgContainer}>
         <img className={styles.introIllustration} src="https://miro.medium.com/v2/resize:fit:1358/1*yw0TnheAGN-LPneDaTlaxw.gif" alt="fullstack development" />
-      </div>
+      </div> */}
     </div>
   );
 }
