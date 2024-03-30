@@ -64,15 +64,30 @@
 
 .buttonContainer{
   display: flex;
-  margin-top: .5rem;
-  border: 1px solid tomato;
+  margin-top: 2.5rem;
+  /* border: 1px solid tomato; */
   justify-content: center;
   align-items: center;
   text-align: center;
   padding: auto 5px;
+  height: 1.85rem;
 
 }
 
 .follow{
+  border-radius: 10px;
+  min-height: 100%;
   min-width: 50%;
+  transition: 0.3s ease-in-out;
+  background-color: transparent;
+  border: none;
+  color: whitesmoke;
+  outline: 1px solid whitesmoke;
+}
+
+.follow:hover{
+  min-width: 100%;
+  letter-spacing: 3px;
+  background-color:rgba(80, 79, 79, 0.342);
+  color: whitesmoke;
 }
