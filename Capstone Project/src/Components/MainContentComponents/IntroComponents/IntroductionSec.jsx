@@ -1,7 +1,9 @@
+import styles from "./IntroductionSec.module.css"
+
 export default function IntroductionSec() {
   return (
-    <div>
-      <div>
+    <div className={styles.container}>
+      <div className={styles.infoContainer}>
       <h3>What is Backend Development?</h3>
       <hr />
       <p>
@@ -34,8 +36,8 @@ export default function IntroductionSec() {
       </div>
       
 
-      <div>
-        <img src="https://miro.medium.com/v2/resize:fit:1358/1*yw0TnheAGN-LPneDaTlaxw.gif" alt="fullstack development" />
+      <div className={styles.imgContainer}>
+        <img className={styles.introIllustration} src="https://miro.medium.com/v2/resize:fit:1358/1*yw0TnheAGN-LPneDaTlaxw.gif" alt="fullstack development" />
       </div>
     </div>
   );
