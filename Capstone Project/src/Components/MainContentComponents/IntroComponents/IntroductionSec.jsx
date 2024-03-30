@@ -1,8 +1,9 @@
 export default function IntroductionSec() {
   return (
     <div>
+      <div>
       <h3>What is Backend Development?</h3>
-      {/* <hr /> */}
+      <hr />
       <p>
         When we use the web and access webpages and applications we are greeted
         with beautiful layouts, fonts, colors, animations and more. All the hard
@@ -30,6 +31,12 @@ export default function IntroductionSec() {
       </p>
 
       <p>👋🏽 Welcome to learning about the Backend!</p>
+      </div>
+      
+
+      <div>
+        <img src="https://i.pinimg.com/originals/e4/26/70/e426702edf874b181aced1e2fa5c6cde.gif" alt="" />
+      </div>
     </div>
   );
 }
