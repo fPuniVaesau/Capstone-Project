@@ -39,8 +39,10 @@
 }
 
 .profileBanner {
-  max-height: 10em;
-  /* max-width: 20em; */
-  border-radius: 2rem;
+  /* max-height: 10em; */
   margin: auto;
+  padding: auto;
+  max-width: 20em;
+  border-radius: 2rem;
+
 }
