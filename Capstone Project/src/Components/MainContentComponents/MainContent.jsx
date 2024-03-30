@@ -1,5 +1,6 @@
 import ProfileCard from './ProfileCardComponents/ProfileCard';
 import Title from './TitleComponents/Title';
+import profilePic from "../../imgs/ProfilePic.JPG"
 
 import styles from './MainContent.module.css';
 export default function MainContent() {
@@ -7,7 +8,7 @@ export default function MainContent() {
     <div className={styles.mainContainer}>
 
       <ProfileCard
-        imgUrl={'https://avatars.githubusercontent.com/u/126365920?v=4'}
+        imgUrl={profilePic}
         name={'Filo Puni Vaesau'}
         role={'Digital Craftsman | Fullstack Developer'}
         location={'San Francisco, Ca'}
