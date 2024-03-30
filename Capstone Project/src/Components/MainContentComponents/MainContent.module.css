@@ -1,13 +1,13 @@
 .mainContainer {
   padding: 10px;
-  /* border: 1px solid whitesmoke; */
+  border: 1px solid whitesmoke;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 1rem;
+  gap: .85em;
 }
 
 .mainContainer > * {
-  border-radius: 0.75rem;
+  border-radius: 1rem;
   /* border-color: 1px solid whitesmoke; */
 }
 
