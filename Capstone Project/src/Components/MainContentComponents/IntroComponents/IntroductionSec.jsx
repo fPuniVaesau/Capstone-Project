@@ -35,7 +35,7 @@ export default function IntroductionSec() {
       
 
       <div>
-        <img src="https://i.pinimg.com/originals/e4/26/70/e426702edf874b181aced1e2fa5c6cde.gif" alt="" />
+        <img src="https://miro.medium.com/v2/resize:fit:1358/1*yw0TnheAGN-LPneDaTlaxw.gif" alt="fullstack development" />
       </div>
     </div>
   );
