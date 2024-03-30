@@ -1,4 +1,5 @@
 .container {
+  box-sizing: border-box;
   border: 3px solid whitesmoke;
   /* border: 1px solid lightgreen; */
   padding: 10px;
@@ -49,4 +50,8 @@
   padding: auto;
   max-width: 100%;
   border-radius: 2rem;
+}
+
+.bannerContainer{
+  
 }
