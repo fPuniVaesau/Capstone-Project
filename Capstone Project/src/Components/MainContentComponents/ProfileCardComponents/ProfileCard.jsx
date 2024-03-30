@@ -26,9 +26,9 @@ export default function ProfileCard({
           alt='Profile Banner'
         />
       </div>
-      
-      <div>
-        <button>Follow+</button>
+
+      <div className={styles.buttonContainer}>
+        <button className={styles.follow}>Follow+</button>
       </div>
     </div>
   );

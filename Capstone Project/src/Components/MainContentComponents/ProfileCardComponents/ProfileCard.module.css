@@ -55,9 +55,19 @@
 }
 
 .bannerContainer{
-  margin-top: 2rem ;
+  margin-top: 1rem ;
   /* border: 1px solid green; */
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.buttonContainer{
+  margin-top: .5rem;
+  border: 1px solid tomato;
+
+}
+
+.follow{
+  min-width: 100%;
 }
