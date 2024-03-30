@@ -46,12 +46,18 @@
 }
 
 .profileBanner {
+  object-fit: cover;
   max-height: 10rem;
   padding: auto;
-  max-width: 100%;
+  min-width: 100%;
   border-radius: 2rem;
+  margin: auto;
 }
 
 .bannerContainer{
-  
+  margin-top: 2rem ;
+  /* border: 1px solid green; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
