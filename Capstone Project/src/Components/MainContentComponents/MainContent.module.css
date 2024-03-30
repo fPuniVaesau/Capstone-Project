@@ -7,3 +7,8 @@
 .mainContainer > * {
   border-radius: 0.75rem;
 }
+
+.two {
+  grid-column-start: 2;
+  grid-column-end: 4;
+}
