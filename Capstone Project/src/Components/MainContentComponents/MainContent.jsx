@@ -20,7 +20,10 @@ export default function MainContent() {
       />
 
       <Title mainTitle={'Getting to know the Backend!'} />
-
+      
+      <div>
+        <h3>What is Backend Development?</h3>
+      </div>
 
     </div>
   );

@@ -32,3 +32,7 @@
 .bio {
   margin-bottom: 10px;
 }
+
+.profileBanner{
+  border-radius: 2rem;
+}
