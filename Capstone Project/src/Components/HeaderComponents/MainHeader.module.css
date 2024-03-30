@@ -1,5 +1,5 @@
 .container {
-  /* border: 1px solid whitesmoke; */
+  border: 1px solid whitesmoke;
   display: flex;
   align-items: center;
 }

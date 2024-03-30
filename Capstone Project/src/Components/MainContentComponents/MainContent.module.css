@@ -1,9 +1,10 @@
 .mainContainer {
-  padding: 10px;
   border: 1px solid whitesmoke;
   display: grid;
+  place-content: center;
   grid-template-columns: repeat(4, 1fr);
-  gap: .85em;
+  padding: 10px;
+  gap: .85em;  
 }
 
 .mainContainer > * {
