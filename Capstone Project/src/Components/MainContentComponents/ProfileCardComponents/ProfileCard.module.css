@@ -63,11 +63,16 @@
 }
 
 .buttonContainer{
+  display: flex;
   margin-top: .5rem;
   border: 1px solid tomato;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: auto 5px;
 
 }
 
 .follow{
-  min-width: 100%;
+  min-width: 50%;
 }
