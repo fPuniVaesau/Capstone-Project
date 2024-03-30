@@ -7,6 +7,7 @@
 
 .mainContainer > * {
   border-radius: 0.75rem;
+  /* border-color: 1px solid whitesmoke; */
 }
 
 .two {

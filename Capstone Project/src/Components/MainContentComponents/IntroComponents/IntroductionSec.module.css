@@ -1,10 +1,4 @@
 .container {
-  /* border: 1px solid whitesmoke; */
+  border: 1px solid whitesmoke;
 }
 
-.introIllustration {
-  display: block;
-  object-fit: cover;
-  border-radius: 2rem;
-  max-width: 20rem;
-}

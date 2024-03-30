@@ -1,5 +1,7 @@
 .titleContainer {
-  /* border: 1px solid tomato; */
+  border: 1px solid tomato;
+  padding: 0;
+  margin: 0;
 }
 
 .mainTitle {
