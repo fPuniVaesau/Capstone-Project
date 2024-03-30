@@ -1,4 +1,5 @@
 .container {
+
   border: 1px solid lightgreen;
   padding: 10px;
   height: 100%;
@@ -21,9 +22,11 @@
 .profileName {
   font-size: 3rem;
   text-align: center;
+  line-height: 1;
 }
 
 .role {
+  margin-top: 20px;
   text-align: center;
   font-size: 1.25rem;
 }
@@ -41,10 +44,9 @@
 }
 
 .profileBanner {
-  /* max-height: 10em; */
   margin: auto;
   padding: auto;
-  max-width: 20em;
+  max-width: 100%;
   border-radius: 2rem;
 
 }
