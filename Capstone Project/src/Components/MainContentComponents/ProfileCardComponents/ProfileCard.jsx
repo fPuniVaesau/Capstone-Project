@@ -13,16 +13,12 @@ export default function ProfileCard({
         <img className={styles.profileImg} src={imgUrl} alt='Profile Picture' />
       </div>
 
-      <div>
-        <h2 className={styles.profileName}>{name}</h2>
-        <h3 className={styles.role}>{role}</h3>
-        <h3 className={styles.location}>{location}</h3>
-      </div>
+      <h2 className={styles.profileName}>{name}</h2>
+      <h3 className={styles.role}>{role}</h3>
+      <h3 className={styles.location}>{location}</h3>
 
-      <div>
-        <p className={styles.bio}>{bio}</p>
-      </div>
-      
+      <p className={styles.bio}>{bio}</p>
+
       <div className={styles.bannerContainer}>
         <img
           className={styles.profileBanner}
