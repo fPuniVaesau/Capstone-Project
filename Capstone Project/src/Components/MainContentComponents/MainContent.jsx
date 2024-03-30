@@ -23,6 +23,8 @@ export default function MainContent() {
       
       <div>
         <h3>What is Backend Development?</h3>
+        {/* <hr /> */}
+        <p></p>
       </div>
 
     </div>
