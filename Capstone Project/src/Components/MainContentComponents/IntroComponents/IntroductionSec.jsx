@@ -1,6 +1,5 @@
-export default function Intro() {
-  
-    return (
+export default function IntroductionSec() {
+  return (
     <div>
       <h3>What is Backend Development?</h3>
       {/* <hr /> */}
