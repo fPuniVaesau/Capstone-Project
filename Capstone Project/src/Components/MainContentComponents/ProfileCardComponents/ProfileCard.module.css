@@ -1,5 +1,5 @@
 .container {
-  /* border: 1px solid orangered; */
+  padding: 10px;
 }
 
 .container > * {
@@ -31,8 +31,12 @@
 
 .bio {
   margin-bottom: 10px;
+  max-width: 30ch;
 }
 
-.profileBanner{
+.profileBanner {
+  max-height: 10em;
+  max-width: 20em;
   border-radius: 2rem;
+  margin: auto;
 }

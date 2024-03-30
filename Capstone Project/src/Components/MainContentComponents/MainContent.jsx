@@ -16,7 +16,7 @@ export default function MainContent() {
             'You will never discover new oceans if you do not have courage to lose sight of the shore.'
           }
           banner={
-            'https://i.pinimg.com/originals/d4/2b/aa/d42baaecec787840fd2b41fe84c040d8.gif'
+            'https://i.redd.it/sni0noeuz6311.gif'
           }
         />
       </div>
