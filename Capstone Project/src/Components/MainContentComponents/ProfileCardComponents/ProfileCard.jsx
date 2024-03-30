@@ -18,10 +18,11 @@ export default function ProfileCard({
         <h3 className={styles.role}>{role}</h3>
         <h3 className={styles.location}>{location}</h3>
       </div>
+
       <div>
-        
+        <p className={styles.bio}>{bio}</p>
       </div>
-      <p className={styles.bio}>{bio}</p>
+      
       <div className={styles.bannerContainer}>
         <img
           className={styles.profileBanner}
