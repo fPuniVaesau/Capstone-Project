@@ -24,7 +24,11 @@ export default function MainContent() {
       <div>
         <h3>What is Backend Development?</h3>
         {/* <hr /> */}
-        <p></p>
+        <p>When we use the web and access webpages and applications we are greeted with beautiful layouts, fonts, colors, animations and more. All the hard work that the developers had done is presented to us in a beautiful package.</p>
+
+        <p>
+          
+        </p>
       </div>
 
     </div>
