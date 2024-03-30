@@ -3,5 +3,8 @@
 }
 
 .introIllustration{
+    display: block;
+    object-fit: cover;
     border-radius: 2rem;
+    max-width: 30rem;
 }
