@@ -11,11 +11,7 @@ export default function MainHeader() {
         }
         altDiscription={'Snorlax Placeholder Logo'}
       />
-      <NavBarList
-        liOne={'About'}
-        liTwo={'Projects'}
-        liThree={'About'}
-      />
+      <NavBarList liOne={'About'} liTwo={'Projects'} liThree={'About'} />
     </header>
   );
 }
