@@ -27,6 +27,9 @@ export default function MainContent() {
       </div>
 
       <IntroductionSec className={styles.test} />
+
+      
+      
     </div>
   );
 }
