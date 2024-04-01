@@ -10,32 +10,20 @@ export default function ProfileCard({
 }) {
   return (
     <div className={styles.container}>
-      <h2 className={styles.profileName}>{firstName} <br /> {lastName}</h2>
+      <h2 className={styles.profileName}>
+        {firstName} <br /> {lastName}
+      </h2>
 
-      <div className={styles.profileImgContainer}>
-        <img className={styles.profileImg} src={imgUrl} alt='Profile Picture' />
-      </div>
+      <img className={styles.profileImg} src={imgUrl} alt='Profile Picture' />
 
-      <div className={styles.roleAndLocationContainer}>
-        <h3 className={styles.role}>{role}</h3>
-        <h3 className={styles.location}>{location}</h3>
-      </div>
+      <h3 className={styles.role}>{role}</h3>
+      <h3 className={styles.location}>{location}</h3>
 
-      <div>
-        <p className={styles.bio}>{bio}</p>
-      </div>
+      <p className={styles.bio}>{bio}</p>
 
-      <div className={styles.bannerContainer}>
-        <img
-          className={styles.profileBanner}
-          src={banner}
-          alt='Profile Banner'
-        />
-      </div>
+      <img className={styles.profileBanner} src={banner} alt='Profile Banner' />
 
-      <div className={styles.buttonContainer}>
-        <button className={styles.follow}>Follow+</button>
-      </div>
+      <button className={styles.follow}>Follow+</button>
     </div>
   );
 }

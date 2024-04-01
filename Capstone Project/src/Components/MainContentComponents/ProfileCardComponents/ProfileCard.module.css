@@ -8,7 +8,8 @@
 }
 
 .container > * {
-  margin: 0px;
+  margin: 0;
+  padding: 0;
 }
 
 .profileImg {
@@ -65,27 +66,4 @@
   align-items: center;
 }
 
-.buttonContainer {
-  display: flex;
-  margin-top: 2rem;
-  /* border: 1px solid tomato; */
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  padding: auto 5px;
-  height: 1.85rem;
-}
 
-.follow {
-  border-radius: 10px;
-  min-height: 100%;
-  background-color: transparent;
-  border: none;
-  color: whitesmoke;
-  outline: 1px double whitesmoke;
-  transition: 0.3s ease-in-out;
-}
-
-.roleAndLocationContainer {
-  border: 1px solid red;
-}

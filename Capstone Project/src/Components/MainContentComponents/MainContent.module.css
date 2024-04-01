@@ -4,12 +4,7 @@
   place-content: center;
   grid-template-columns: repeat(4, 1fr);
   padding: 10px;
-  gap: .85em;  
-}
-
-.mainContainer > * {
-  border-radius: 1rem;
-  /* border-color: 1px solid whitesmoke; */
+  gap: 0.85em;
 }
 
 .two {
