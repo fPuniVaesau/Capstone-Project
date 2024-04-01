@@ -17,7 +17,7 @@ export default function ProfileCard({
       <img className={styles.profileImg} src={imgUrl} alt='Profile Picture' />
       <div className={styles.infoContainer}>
         <h3>{role}</h3>
-        <h3>{location}</h3>
+        <p className={styles.location}>{location}</p>
         <p>{bio}</p>
       </div>
 

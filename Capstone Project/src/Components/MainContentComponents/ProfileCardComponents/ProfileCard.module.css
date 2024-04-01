@@ -1,3 +1,8 @@
 .profileImg {
   max-height: 300px;
+  border-radius: 20px;
+}
+
+.location{
+  margin-top: 0px;
 }
