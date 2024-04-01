@@ -12,7 +12,7 @@ export default function ProfileCard({
     <div className={styles.container}>
       <h2 className={styles.profileName}>{firstName} <br /> {lastName}</h2>
 
-      <div>
+      <div className={styles.profileImgContainer}>
         <img className={styles.profileImg} src={imgUrl} alt='Profile Picture' />
       </div>
 
