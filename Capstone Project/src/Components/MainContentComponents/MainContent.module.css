@@ -1,5 +1,5 @@
 .mainContainer {
-  border: 1px solid whitesmoke;
+  /* border: 1px solid whitesmoke; */
   display: grid;
   place-content: center;
   grid-template-columns: repeat(4, 1fr);
