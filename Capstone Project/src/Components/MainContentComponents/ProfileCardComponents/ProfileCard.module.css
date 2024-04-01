@@ -1,4 +1,6 @@
 .container {
+  display: flex;
+  flex-direction: column;
   box-sizing: border-box;
   border: 3px solid whitesmoke;
   /* border: 1px solid lightgreen; */
@@ -10,16 +12,6 @@
 .container > * {
   margin: 0;
   padding: 0;
-}
-
-.profileImg {
-  border: 1px solid orange;
-  display: block;
-  object-fit: cover;
-  margin-top: 100px;
-  border-radius: 500px;
-  width: 150px;
-  height: 150px;
 }
 
 .profileName {
@@ -66,4 +58,11 @@
   align-items: center;
 }
 
-
+.profileImg {
+  border: 1px solid rgb(104, 153, 51);
+  height: 150px;
+  width: 150px;
+  border-radius: 1000px;
+  margin: auto;
+  margin-top: 10px;
+}

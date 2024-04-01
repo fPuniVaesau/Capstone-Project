@@ -11,15 +11,15 @@ export default function ProfileCard({
   return (
     <div className={styles.container}>
       <h2 className={styles.profileName}>
-        {firstName} <br /> {lastName}
+        {firstName} {lastName}
       </h2>
 
       <img className={styles.profileImg} src={imgUrl} alt='Profile Picture' />
-
-      <h3 className={styles.role}>{role}</h3>
-      <h3 className={styles.location}>{location}</h3>
-
-      <p className={styles.bio}>{bio}</p>
+      <div>
+        <h3 className={styles.role}>{role}</h3>
+        <h3 className={styles.location}>{location}</h3>
+        <p className={styles.bio}>{bio}</p>
+      </div>
 
       <img className={styles.profileBanner} src={banner} alt='Profile Banner' />
 
