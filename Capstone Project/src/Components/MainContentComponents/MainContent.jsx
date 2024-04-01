@@ -11,8 +11,8 @@ export default function MainContent() {
           imgUrl={'https://avatars.githubusercontent.com/u/126365920?v=4'}
           firstName={'Filo'}
           lastName={'Vaesau'}
-          role={'Digital Craftsman | Fullstack Developer'}
-          location={'San Francisco, Ca'}
+          role={'Digital Craftsman'}
+          location={'San Francisco'}
           bio={
             'You will never discover new oceans if you do not have courage to lose sight of the shore.'
           }

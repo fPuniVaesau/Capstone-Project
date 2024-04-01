@@ -12,13 +12,13 @@
 }
 
 .profileImg {
+  border: 1px solid orange;
   display: block;
   object-fit: cover;
-  width: 10rem;
   margin-top: 100px;
-  height: 10rem;
-  border-radius: 2rem;
-  margin: 20px auto 10px;
+  border-radius: 500px;
+  width: 150px;
+  height: 150px;
 }
 
 .profileName {
@@ -29,14 +29,17 @@
 }
 
 .role {
+  border: 1px solid orange;
   text-align: center;
   font-size: 1.15rem;
 }
 
 .location {
+  border: 1px solid orange;
   text-align: center;
   font-size: 1rem;
   font-weight: 300;
+  margin-top: 0px;
   /* margin: 10px auto; */
 }
 
@@ -85,7 +88,4 @@
 
 .roleAndLocationContainer {
   border: 1px solid red;
-  padding: 0;
-  margin: 0;
-  line-height: 1;
 }
