@@ -1,4 +1,10 @@
 
+.container{
+  border: 3px solid whitesmoke;
+  border-radius: 20px;
+  height: 100%;
+}
+
 .profileImg {
   margin-top: 10px;
   max-height: 300px;
