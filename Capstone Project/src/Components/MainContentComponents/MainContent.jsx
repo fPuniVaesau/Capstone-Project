@@ -9,7 +9,7 @@ export default function MainContent() {
       <div>
         <ProfileCard
           imgUrl={'https://avatars.githubusercontent.com/u/126365920?v=4'}
-          name={'Filo Puni Vaesau'}
+          name={'Filo Vaesau'}
           role={'Digital Craftsman | Fullstack Developer'}
           location={'San Francisco, Ca'}
           bio={
