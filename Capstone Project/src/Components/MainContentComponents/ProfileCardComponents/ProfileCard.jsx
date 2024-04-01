@@ -15,15 +15,15 @@ export default function ProfileCard({
       </h2>
 
       <img className={styles.profileImg} src={imgUrl} alt='Profile Picture' />
-      <div>
-        <h3 className={styles.role}>{role}</h3>
-        <h3 className={styles.location}>{location}</h3>
-        <p className={styles.bio}>{bio}</p>
+      <div className={styles.infoContainer}>
+        <h3>{role}</h3>
+        <h3>{location}</h3>
+        <p>{bio}</p>
       </div>
 
-      <img className={styles.profileBanner} src={banner} alt='Profile Banner' />
+      {/* <img className={styles.profileBanner} src={banner} alt='Profile Banner' /> */}
 
-      <button className={styles.follow}>Follow+</button>
+      {/* <button className={styles.follow}>Follow+</button> */}
     </div>
   );
 }
