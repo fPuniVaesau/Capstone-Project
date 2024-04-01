@@ -11,8 +11,8 @@ export default function MainContent() {
           imgUrl={'https://avatars.githubusercontent.com/u/126365920?v=4'}
           firstName={'Filo'}
           lastName={'Vaesau'}
-          role={'Digital Craftsman'}
-          location={'San Francisco'}
+          role={'Digital Craftsman | Developer'}
+          location={'San Francisco, Ca'}
           bio={
             'You will never discover new oceans if you do not have courage to lose sight of the shore.'
           }
@@ -27,9 +27,6 @@ export default function MainContent() {
       </div>
 
       <IntroductionSec className={styles.test} />
-
-      
-      
     </div>
   );
 }

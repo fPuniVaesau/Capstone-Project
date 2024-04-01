@@ -1,8 +1,8 @@
-
-.container{
+.container {
   border: 3px solid whitesmoke;
   border-radius: 20px;
   height: 100%;
+  padding: 10px;
 }
 
 .profileImg {
@@ -11,7 +11,10 @@
   border-radius: 20px;
 }
 
-.location{
-  border: 1px solid orangered;
-  margin-top: 0px;
+.location {
+  /* border: 1px solid orangered; */
+}
+
+.bio{
+  margin-top: 10px;
 }

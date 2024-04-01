@@ -18,12 +18,12 @@ export default function ProfileCard({
       <div className={styles.infoContainer}>
         <h3>{role}</h3>
         <p className={styles.location}>{location}</p>
-        <p>{bio}</p>
+        <p className={styles.bio}>{bio}</p>
       </div>
 
       {/* <img className={styles.profileBanner} src={banner} alt='Profile Banner' /> */}
 
-      {/* <button className={styles.follow}>Follow+</button> */}
+      <button className={styles.follow}>Follow+</button>
     </div>
   );
 }
