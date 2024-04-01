@@ -23,7 +23,7 @@
 
 .profileName {
   margin-top: 1rem;
-  font-size: 1.95rem;
+  font-size: 3rem;
   text-align: center;
   line-height: 1;
 }
@@ -82,4 +82,8 @@
   color: whitesmoke;
   outline: 1px double whitesmoke;
   transition: 0.3s ease-in-out;
+}
+
+.roleAndLocationContainer{
+  border: 1px solid red;
 }
