@@ -22,7 +22,8 @@
 }
 
 .profileName {
-  font-size: 1.75rem;
+  margin-top: 1rem;
+  font-size: 1.95rem;
   text-align: center;
   line-height: 1;
 }
@@ -37,7 +38,7 @@
   text-align: center;
   font-size: 1rem;
   font-weight: 300;
-  margin: 10px auto;
+  /* margin: 10px auto; */
 }
 
 .bio {
