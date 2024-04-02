@@ -35,10 +35,6 @@ export default function IntroductionSec() {
       <p className={styles.info}>👋🏽 Welcome to learning about the Backend!</p>
       </div>
       
-
-      {/* <div className={styles.imgContainer}>
-        <img className={styles.introIllustration} src="https://miro.medium.com/v2/resize:fit:1358/1*yw0TnheAGN-LPneDaTlaxw.gif" alt="fullstack development" />
-      </div> */}
     </div>
   );
 }
