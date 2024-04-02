@@ -7,7 +7,6 @@ export default function BackendArchitecture() {
     <div className={styles.BACcontainer}>
       <BACTitle Title={'3 Main Components'} />
       <BACintro />
-      
     </div>
   );
 }
