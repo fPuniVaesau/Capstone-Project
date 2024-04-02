@@ -8,8 +8,9 @@ export default function BACintro() {
         consider...
       </p>
 
-      <div className={styles.info}>
-        <div>
+      <div className={styles.infoWrapper}>
+
+        <div className={styles.info}>
           <h4>The Server</h4>
           <p>
             the computer or machine that will host your application and listens
@@ -17,17 +18,17 @@ export default function BACintro() {
           </p>
         </div>
 
-        <div>
+        <div className={styles.info}>
           <h4>The Application</h4>
           <p></p>
         </div>
 
-        <div>
+        <div className={styles.info}>
           <h4>Database</h4>
           <p></p>
         </div>
       </div>
-      
+
     </div>
   );
 }

@@ -1,9 +1,13 @@
 .infoContainer {
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 
-.info{
+.infoWrapper {
   margin-top: 10px;
   padding: 0;
 }
 
+.info {
+  padding: 0;
+  margin: 0;
+}
