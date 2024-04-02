@@ -4,7 +4,7 @@ export default function ServerInfo(){
   
   return(
     <div className={styles.serverContainer}>
-      <h1>Test</h1>
+      <h3>Server</h3>
     </div>
   )
 }
