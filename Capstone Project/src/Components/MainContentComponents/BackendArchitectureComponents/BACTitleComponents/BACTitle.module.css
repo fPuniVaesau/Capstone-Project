@@ -1,7 +1,8 @@
-.TitleContainer{
-  
+.titleContainer {
+  padding: 10px;
+  border: 3px solid whitesmoke;
+  border-radius: 20px;
 }
 
-.title{
-
+.title {
 }

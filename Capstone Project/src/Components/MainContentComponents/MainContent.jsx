@@ -2,6 +2,7 @@ import ProfileCard from './ProfileCardComponents/ProfileCard';
 import Title from './TitleComponents/Title';
 import IntroductionSec from './IntroComponents/IntroductionSec';
 
+
 import styles from './MainContent.module.css';
 export default function MainContent() {
   return (
@@ -27,6 +28,8 @@ export default function MainContent() {
       </div>
 
       <IntroductionSec className={styles.test} />
+
+      
     </div>
   );
 }
