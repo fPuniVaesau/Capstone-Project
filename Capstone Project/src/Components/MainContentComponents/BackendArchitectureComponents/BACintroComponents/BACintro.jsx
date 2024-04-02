@@ -10,7 +10,7 @@ export default function BACintro() {
 
       <div className={styles.infoWrapper}>
         <div className={styles.info}>
-          <h4>The Server</h4>
+          <h4 className={styles.subTitle}>The Server</h4>
           <p>
             the computer or machine that will host your application and listens
             for incoming request from the client.
@@ -19,7 +19,7 @@ export default function BACintro() {
         </div>
 
         <div className={styles.info}>
-          <h4>The Application</h4>
+          <h4 className={styles.subTitle}>The Application</h4>
           <p>
             the software or program that will run on the server which contains
             the logic and functionality of the application.
@@ -31,7 +31,7 @@ export default function BACintro() {
         </div>
 
         <div className={styles.info}>
-          <h4>The Database</h4>
+          <h4 className={styles.subTitle}>The Database</h4>
           <p>
             Where you will store and manage your the data of your application.
           </p>

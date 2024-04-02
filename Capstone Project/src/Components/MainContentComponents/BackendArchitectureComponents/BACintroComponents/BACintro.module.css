@@ -1,6 +1,7 @@
-/* .infoContainer {
-  border: 1px solid lime;
-} */
+.infoContainer {
+  /* border: 1px solid lime; */
+  margin-top: 10px;
+}
 
 .infoWrapper {
   margin-top: 10px;
@@ -11,4 +12,8 @@
   padding: 0;
   margin: 0;
   margin-bottom: 10px;
+}
+
+.subTitle {
+  color: rgb(127, 197, 47);
 }
