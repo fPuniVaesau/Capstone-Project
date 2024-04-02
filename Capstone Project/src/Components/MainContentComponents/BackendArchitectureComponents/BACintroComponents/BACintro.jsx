@@ -1,14 +1,12 @@
+import styles from './BACintro.module.css'
 
-export default function BACintro(){
-
-  return(
-    <>
-      <div>
-        <p>
-          When it comes to designing web applications, there are 3 things you
-          must consider...
-        </p>
-      </div>
+export default function BACintro() {
+  return (
+    <div className={styles.infoContainer}>
+      <p>
+        When it comes to designing web applications, there are 3 things you must
+        consider...
+      </p>
 
       <div>
         <div>
@@ -28,6 +26,6 @@ export default function BACintro(){
           <h4>Database</h4>
         </div>
       </div>
-    </>
-  )
+    </div>
+  );
 }
