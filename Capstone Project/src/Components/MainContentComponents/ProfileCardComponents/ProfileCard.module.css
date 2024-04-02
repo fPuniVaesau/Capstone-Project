@@ -11,6 +11,10 @@
   display: flex;
 }
 
+.profileName {
+  font-size: 1.5rem;
+}
+
 .profileImg {
   margin-top: 10px;
   max-height: 300px;
@@ -29,16 +33,14 @@
 
 .follow {
   width: 25%;
-  justify-items: center;
-  align-items: center;
-  margin: auto;
   background-color: transparent;
   border: none;
   transition: 0.3s ease-in-out;
   outline: 1px solid whitesmoke;
   border-radius: 10px;
   color: whitesmoke;
-  padding: 3px auto;
+  padding: 7px;
+  margin-left: 5px;
 }
 
 .follow:hover {
