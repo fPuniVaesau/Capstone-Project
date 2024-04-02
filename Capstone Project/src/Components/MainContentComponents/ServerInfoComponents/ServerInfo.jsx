@@ -6,10 +6,12 @@ export default function ServerInfo() {
       <h3>Server(s)</h3>
 
       <div className={styles.ServerInfoContainer}>
-        <h4>Node.js</h4>
+        <h4 className={styles.subtitle}>Node.js</h4>
         <p>
         Node.js is a server-side JavaScript runtime environment that allows developers to build scalable and high-performance web applications.
         </p>
+
+        <p></p>
       </div>
 
       <div className={styles.imgContainer}>
