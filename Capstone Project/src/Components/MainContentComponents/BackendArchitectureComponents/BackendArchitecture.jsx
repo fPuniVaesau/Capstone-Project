@@ -12,13 +12,19 @@ export default function BackendArchitecture(){
       <div>
         <p>When it comes to designing web applications, there are 3 things you must consider...</p>
 
-        <ul>
-         <li>Server
-          <p></p>
-         </li>
-         <li>Application</li>
-         <li>Database</li>
-        </ul>
+       <div>
+        <h4>Server</h4>
+        <p></p>
+       </div>
+
+       <div>
+        <h4>Application</h4>
+       </div>
+
+       <div>
+        <h4>Database</h4>
+       </div>
+       
       </div>
     </div>
   )
