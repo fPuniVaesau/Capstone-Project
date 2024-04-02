@@ -4,6 +4,7 @@ import IntroductionSec from './IntroComponents/IntroductionSec';
 import BackendArchitecture from './BackendArchitectureComponents/BackendArchitecture';
 import ServerInfo from './ServerInfoComponents/ServerInfo';
 import DatabaseInfo from './DatabaseComponents/DatabaseInfo';
+import ApplicationInfo from './ApplicationComponents/ApplicationInfo';
 
 import styles from './MainContent.module.css';
 export default function MainContent() {
@@ -43,6 +44,10 @@ export default function MainContent() {
 
       <div>
         <DatabaseInfo />
+      </div>
+
+      <div>
+        <ApplicationInfo />
       </div>
     </div>
   );
