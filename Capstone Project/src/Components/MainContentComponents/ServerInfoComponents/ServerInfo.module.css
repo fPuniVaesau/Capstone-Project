@@ -11,9 +11,13 @@
   padding: 0;
 }
 
+.serverInfo{
+  
+}
+
 .imageItem {
   padding: 0;
-  border: 1px solid yellowgreen;
+  /* border: 1px solid yellowgreen; */
   display: block;
   object-fit: cover;
   height: 10rem;
@@ -22,3 +26,4 @@
   justify-content: center;
   border-radius: 10px;
 }
+

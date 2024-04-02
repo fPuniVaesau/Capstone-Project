@@ -6,7 +6,7 @@ export default function ServerInfo(){
     <div className={styles.serverContainer}>
       <h3>Server(s)</h3>
 
-      <div>
+      <div className={ServerInfo.styles}>
         <p>For this project you are viewing, the server component will be handled using node.js & express.js</p>
       </div>
 
