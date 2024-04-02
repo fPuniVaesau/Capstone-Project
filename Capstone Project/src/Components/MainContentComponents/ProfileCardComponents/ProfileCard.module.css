@@ -49,3 +49,10 @@
   color: black;
   letter-spacing: 3px;
 }
+
+.follow:active {
+  background-color: hsla(68, 58%, 53%, 0.915);
+  color: whitesmoke;
+  outline: none;
+  letter-spacing: 1px;
+}
