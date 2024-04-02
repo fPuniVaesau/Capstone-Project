@@ -1,3 +1,4 @@
+import styles from "./DatabaseInfo.module.css"
 
 export default function DatabaseInfo(){
 
