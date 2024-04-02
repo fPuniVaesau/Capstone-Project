@@ -34,6 +34,8 @@ export default function MainContent() {
       <div>
         <BackendArchitecture />
       </div>
+
+     
     </div>
   );
 }
