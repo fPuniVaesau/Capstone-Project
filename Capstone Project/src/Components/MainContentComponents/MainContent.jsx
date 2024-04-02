@@ -1,7 +1,7 @@
 import ProfileCard from './ProfileCardComponents/ProfileCard';
 import Title from './TitleComponents/Title';
 import IntroductionSec from './IntroComponents/IntroductionSec';
-
+import BackendArchitecture from './BackendArchitectureComponents/BackendArchitecture';
 
 import styles from './MainContent.module.css';
 export default function MainContent() {
@@ -27,9 +27,13 @@ export default function MainContent() {
         <Title mainTitle={'Getting to know the Backend!'} />
       </div>
 
-      <IntroductionSec className={styles.test} />
+      <div>
+        <IntroductionSec className={styles.test} />
+      </div>
 
-      
+      <div>
+        <BackendArchitecture />
+      </div>
     </div>
   );
 }
