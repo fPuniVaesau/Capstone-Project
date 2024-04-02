@@ -1,4 +1,4 @@
-import styles from './BACintro.module.css'
+import styles from './BACintro.module.css';
 
 export default function BACintro() {
   return (
@@ -8,23 +8,17 @@ export default function BACintro() {
         consider...
       </p>
 
-      <div>
-        <div>
-          <h4>The Server</h4>
-          <p>
-            the computer or machine that will host your application and listens
-            for incoming request from the client
-          </p>
-        </div>
+      <div className={styles.info}>
+        <h4>The Server</h4>
+        <p>
+          the computer or machine that will host your application and listens
+          for incoming request from the client
+        </p>
 
-        <div>
-          <h4>The Application</h4>
-          <p></p>
-        </div>
+        <h4>The Application</h4>
+        <p></p>
 
-        <div>
-          <h4>Database</h4>
-        </div>
+        <h4>Database</h4>
       </div>
     </div>
   );
