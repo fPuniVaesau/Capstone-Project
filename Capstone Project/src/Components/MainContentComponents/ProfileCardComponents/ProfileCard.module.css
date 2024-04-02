@@ -5,6 +5,12 @@
   padding: 10px;
 }
 
+.buttonContainer {
+  /* border: 1px solid lime; */
+  margin-top: 10px;
+  display: flex;
+}
+
 .profileImg {
   margin-top: 10px;
   max-height: 300px;
@@ -22,6 +28,22 @@
 }
 
 .follow {
-  margin: 10px auto;
+  width: 25%;
+  justify-items: center;
+  align-items: center;
+  margin: auto;
+  background-color: transparent;
+  border: none;
+  transition: 0.3s ease-in-out;
+  outline: 1px solid whitesmoke;
+  border-radius: 10px;
+  color: whitesmoke;
+  padding: 3px auto;
+}
+
+.follow:hover {
   width: 100%;
+  background-color: whitesmoke;
+  color: black;
+  letter-spacing: 3px;
 }

@@ -22,8 +22,9 @@ export default function ProfileCard({
       </div>
 
       {/* <img className={styles.profileBanner} src={banner} alt='Profile Banner' /> */}
-
-      <button className={styles.follow}>Follow+</button>
+      <div className={styles.buttonContainer}>
+        <button className={styles.follow}>Follow+</button>
+      </div>
     </div>
   );
 }
