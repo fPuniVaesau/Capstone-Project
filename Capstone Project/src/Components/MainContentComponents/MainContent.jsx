@@ -2,6 +2,7 @@ import ProfileCard from './ProfileCardComponents/ProfileCard';
 import Title from './TitleComponents/Title';
 import IntroductionSec from './IntroComponents/IntroductionSec';
 import BackendArchitecture from './BackendArchitectureComponents/BackendArchitecture';
+import ServerInfo from './ServerInfoComponents/ServerInfo';
 
 import styles from './MainContent.module.css';
 export default function MainContent() {
@@ -35,7 +36,7 @@ export default function MainContent() {
         <BackendArchitecture />
       </div>
 
-     
+     <ServerInfo />
     </div>
   );
 }
