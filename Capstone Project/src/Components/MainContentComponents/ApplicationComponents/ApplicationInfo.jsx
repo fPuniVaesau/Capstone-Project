@@ -23,8 +23,12 @@ export default function ApplicationInfo() {
         </p>
 
         <p>
-          
+          This allows for components on the page to re-render when updated, not the entire web page. This improves overall performance and a better overall user experience.
         </p>
+      </div>
+
+      <div>
+        <img src="" alt="" />
       </div>
     </div>
   );
