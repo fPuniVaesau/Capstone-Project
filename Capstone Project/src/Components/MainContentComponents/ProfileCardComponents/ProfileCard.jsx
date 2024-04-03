@@ -6,7 +6,6 @@ export default function ProfileCard({
   role,
   location,
   bio,
-  banner,
 }) {
   return (
     <div className={styles.container}>
@@ -21,7 +20,6 @@ export default function ProfileCard({
         <p className={styles.bio}>{bio}</p>
       </div>
 
-      {/* <img className={styles.profileBanner} src={banner} alt='Profile Banner' /> */}
       <div className={styles.buttonContainer}>
         <button className={styles.follow}>Follow+</button>
       </div>
