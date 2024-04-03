@@ -15,8 +15,9 @@
 }
 
 .ServerInfoContainer {
-  padding: 10px;
+  /* padding: 10px; */
   padding: 0;
+  margin-top: 10px;
 }
 
 .imageItem {
