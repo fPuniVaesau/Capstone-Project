@@ -13,11 +13,6 @@ export default function ServerInfo() {
         </p>
 
         <p className={styles.serverInfo}>
-          Utilizing event-driven, non-blocking I/O model, which makes it ideal
-          for handling concurrent requests.
-        </p>
-
-        <p className={styles.serverInfo}>
           With Node.js, developers can leverage JavaScript skills on both the
           front-end and back-end, ensuring a consistent development experience.
         </p>
@@ -28,12 +23,6 @@ export default function ServerInfo() {
         <p className={styles.serverInfo}>
           The Web Application Framework Express.js is a minimalist and flexible
           web application framework for Node.js.
-        </p>
-
-        <p className={styles.serverInfo}>
-          It provides a simple yet powerful set of features for building web
-          applications, such as routing, middleware support, and template
-          engines.
         </p>
 
         <p className={styles.serverInfo}>
