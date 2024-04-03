@@ -46,6 +46,8 @@ export default function MainContent() {
       <div>
         <ApplicationInfo />
       </div>
+
+      
     </div>
   );
 }
