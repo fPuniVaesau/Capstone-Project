@@ -1,4 +1,5 @@
 .databaseContainer {
+  height: 100%;
   border: 3px solid whitesmoke;
   padding: 10px;
   border-radius: 20px;
@@ -19,6 +20,8 @@
 
 .dbImageContainer {
   padding: 0;
+  /* border: 1px solid red; */
+  margin-top: 55px;
 }
 
 .dbImage {

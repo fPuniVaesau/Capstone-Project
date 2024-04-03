@@ -19,12 +19,21 @@ export default function DatabaseInfo() {
           This flexibility enables faster development cycles and easier schema
           updates.
         </p>
+
+        <p className={styles.dbInfo}>
+          MongoDB is a NoSQL database that serves as the foundational layer in
+          the MERN stack. In this section, we will explore MongoDB’s key
+          features, data modeling concepts, and how it integrates with the MERN
+          stack.
+        </p>
       </div>
 
       <div className={styles.dbImageContainer}>
-        <img className={styles.dbImage} 
-        src="https://www.mongodb.com/docs/assets/meta_generic.png" 
-        alt="MongoDb Image" />
+        <img
+          className={styles.dbImage}
+          src='https://www.mongodb.com/docs/assets/meta_generic.png'
+          alt='MongoDb Image'
+        />
       </div>
     </div>
   );
