@@ -5,7 +5,7 @@ export default function DatabaseInfo() {
     <div className={styles.databaseContainer}>
       <h3>Database(s)</h3>
 
-      <div>
+      <div className={styles.dbContainer}>
         <h4 className={styles.dbSubtitle}>MongoDB</h4>
         <p className={styles.dbInfo}>
           The Database Layer MongoDB is a NoSQL database that offers a flexible
@@ -23,7 +23,7 @@ export default function DatabaseInfo() {
 
       <div className={styles.dbImageContainer}>
         <img className={styles.dbImage} 
-        src="" 
+        src="https://www.mongodb.com/docs/assets/meta_generic.png" 
         alt="MongoDb Image" />
       </div>
     </div>
