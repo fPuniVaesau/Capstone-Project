@@ -27,3 +27,12 @@
   justify-content: center;
   border-radius: 10px;
 }
+
+.serverInfo {
+  margin-top: 10px;
+}
+
+.subtitle {
+  color: black;
+
+}
