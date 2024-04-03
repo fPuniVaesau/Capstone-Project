@@ -22,7 +22,9 @@ export default function DatabaseInfo() {
       </div>
 
       <div className={styles.dbImageContainer}>
-        <img className={styles.dbImage} src="" alt="" />
+        <img className={styles.dbImage} 
+        src="" 
+        alt="MongoDb Image" />
       </div>
     </div>
   );
