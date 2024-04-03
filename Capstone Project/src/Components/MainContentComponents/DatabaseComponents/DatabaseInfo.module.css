@@ -3,6 +3,8 @@
   border: 3px solid whitesmoke;
   padding: 10px;
   border-radius: 20px;
+  display: flex;
+  flex-direction: column;
 }
 
 .dbContainer {
@@ -22,8 +24,8 @@
   margin-block-start: auto;
   padding: 0;
   /* border: 1px solid red; */
-  margin-top: 10px;
-  /* margin-top: 55px; */
+  /* margin-top: 10px; */
+  margin-block-start: auto;
 }
 
 .dbImage {
