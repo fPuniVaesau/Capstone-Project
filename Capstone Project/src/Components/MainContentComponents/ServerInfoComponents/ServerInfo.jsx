@@ -8,10 +8,16 @@ export default function ServerInfo() {
       <div className={styles.ServerInfoContainer}>
         <h4 className={styles.subtitle}>Node.js</h4>
         <p>
-        Node.js is a server-side JavaScript runtime environment that allows developers to build scalable and high-performance web applications.
+          Node.js is a server-side JavaScript runtime environment that allows
+          developers to build scalable and high-performance web applications;
+          Utilizing event-driven, non-blocking I/O model, which makes it ideal
+          for handling concurrent requests.
         </p>
 
-        <p></p>
+        <p>
+          With Node.js, developers can leverage JavaScript skills on both the
+          front-end and back-end, ensuring a consistent development experience.
+        </p>
       </div>
 
       <div className={styles.imgContainer}>
