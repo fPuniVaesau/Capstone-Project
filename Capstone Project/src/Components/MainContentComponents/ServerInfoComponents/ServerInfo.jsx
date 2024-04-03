@@ -20,6 +20,21 @@ export default function ServerInfo() {
         </p>
       </div>
 
+      <div className={styles.ServerInfoContainer}>
+        <h4 className={styles.subtitle}>Express.js</h4>
+        <p>
+          The Web Application Framework Express.js is a minimalist and flexible
+          web application framework for Node.js. It provides a simple yet
+          powerful set of features for building web applications, such as
+          routing, middleware support, and template engines.
+        </p>
+
+        <p>
+          Express.js simplifies the process of handling HTTP requests and
+          building APIs, making it an essential part of the MERN stack.
+        </p>
+      </div>
+
       <div className={styles.imgContainer}>
         <img
           className={styles.imageItem}
