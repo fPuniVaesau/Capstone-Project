@@ -27,8 +27,8 @@ export default function ApplicationInfo() {
         </p>
       </div>
 
-      <div className={}>
-        <img src="" alt="" />
+      <div className={styles.imgContainer}>
+        <img className={styles.appImage} src="" alt="" />
       </div>
     </div>
   );
