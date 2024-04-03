@@ -28,7 +28,7 @@ export default function ApplicationInfo() {
       </div>
 
       <div className={styles.imgContainer}>
-        <img className={styles.appImage} src="" alt="" />
+        <img className={styles.appImage} src="https://setscholars.net/wp-content/uploads/2022/12/React-JS.png" alt="" />
       </div>
     </div>
   );

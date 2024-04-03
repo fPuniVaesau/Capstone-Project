@@ -27,3 +27,15 @@
 .appInfo {
   margin-top: 10px;
 }
+
+.appImage {
+  padding: 0;
+  /* border: 1px solid yellowgreen; */
+  display: block;
+  object-fit: cover;
+  height: 7rem;
+  min-width: 100%;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+}
