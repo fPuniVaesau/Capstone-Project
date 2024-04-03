@@ -21,10 +21,14 @@ export default function DatabaseInfo() {
         </p>
 
         <p className={styles.dbInfo}>
-          MongoDB is a NoSQL database that serves as the foundational layer in
-          the MERN stack. In this section, we will explore MongoDB’s key
-          features, data modeling concepts, and how it integrates with the MERN
-          stack.
+          One of the primary advantages of MongoDB is its flexible and
+          schema-less nature. 
+        </p>
+
+        <p className={styles.dbInfo}>
+          Documents in MongoDB are stored in BSON (Binary JSON) format, which
+          enables the storage of complex data structures, including arrays,
+          nested documents, and even binary data.
         </p>
       </div>
 
