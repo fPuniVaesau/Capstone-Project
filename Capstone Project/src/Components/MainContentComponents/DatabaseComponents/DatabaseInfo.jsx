@@ -6,19 +6,23 @@ export default function DatabaseInfo() {
       <h3>Database(s)</h3>
 
       <div>
-        <h4>MongoDB</h4>
-        <p>
+        <h4 className={styles.dbSubtitle}>MongoDB</h4>
+        <p className={styles.dbInfo}>
           The Database Layer MongoDB is a NoSQL database that offers a flexible
           and scalable solution for storing data.
         </p>
-        <p>
+        <p className={styles.dbInfo}>
           Unlike traditional relational databases, MongoDB uses a document-based
           model, allowing developers to work with JSON-like documents.
         </p>
-        <p>
+        <p className={styles.dbInfo}>
           This flexibility enables faster development cycles and easier schema
           updates.
         </p>
+      </div>
+
+      <div className={styles.dbImageContainer}>
+        <img className={styles.dbImage} src="" alt="" />
       </div>
     </div>
   );
