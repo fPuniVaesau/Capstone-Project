@@ -53,7 +53,7 @@
 }
 
 .follow:active {
-  background-color: hsla(68, 58%, 53%, 0.915);
+  background-color: hsla(68, 58%, 53%, 0.923);
   color: whitesmoke;
   outline: none;
   letter-spacing: 1px;
