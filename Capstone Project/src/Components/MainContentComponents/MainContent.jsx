@@ -5,6 +5,7 @@ import BackendArchitecture from './BackendArchitectureComponents/BackendArchitec
 import ServerInfo from './ServerInfoComponents/ServerInfo';
 import DatabaseInfo from './DatabaseComponents/DatabaseInfo';
 import ApplicationInfo from './ApplicationComponents/ApplicationInfo';
+import photos from '../../imgs/FiloPuniVaesau.jpeg'
 
 import styles from './MainContent.module.css';
 export default function MainContent() {
@@ -47,6 +48,9 @@ export default function MainContent() {
         <ApplicationInfo />
       </div>
       
+      <div>
+        
+      </div>
     </div>
   );
 }
