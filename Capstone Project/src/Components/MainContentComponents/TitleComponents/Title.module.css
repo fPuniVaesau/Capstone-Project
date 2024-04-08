@@ -7,4 +7,9 @@
 
 .mainTitle {
   font-size: 7.5rem;
+  opacity: 0;
+}
+
+@keyframes fadeIn{
+  opacity: 1;
 }
