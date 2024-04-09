@@ -36,7 +36,7 @@ export default function MainContent() {
         <BackendArchitecture />
       </div>
 
-      <div>
+      <div className={styles.serverContainer}>
         <ServerInfo />
       </div>
 
