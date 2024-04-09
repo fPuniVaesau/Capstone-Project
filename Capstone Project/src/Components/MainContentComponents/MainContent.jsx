@@ -44,7 +44,7 @@ export default function MainContent() {
         <DatabaseInfo />
       </div>
 
-      <div>
+      <div className={styles.applicationInfoContainer}>
         <ApplicationInfo />
       </div>
       
