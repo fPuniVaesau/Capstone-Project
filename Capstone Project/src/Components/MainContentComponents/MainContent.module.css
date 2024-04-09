@@ -14,7 +14,7 @@
 
 .serverContainer{
   opacity: 0;
-  animation: fadeIn 5s ;
+  animation: fadeIn 5s forwards ;
 }
 
 @keyframes fadeIn{
