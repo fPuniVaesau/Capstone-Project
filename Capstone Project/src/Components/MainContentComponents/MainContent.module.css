@@ -18,10 +18,20 @@
 }
 
 .databaseContainer{
-  
+  opacity: 0;
+  animation: fadeIn 5s forwards ;
+}
+
+.applicationInfoContainer{
+  opacity: 0;
+  animation: fadeIn 10s forwards ;
 }
 
 @keyframes fadeIn{
+  0%{
+    opacity: 0;
+  }
+
   100%{
     opacity: 1;
   }
