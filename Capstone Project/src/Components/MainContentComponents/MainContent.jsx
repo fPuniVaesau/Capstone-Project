@@ -11,7 +11,7 @@ import styles from './MainContent.module.css';
 export default function MainContent() {
   return (
     <div className={styles.mainContainer}>
-      <div>
+      <div className={styles.profileContainer}>
         <ProfileCard
           imgUrl={'https://avatars.githubusercontent.com/u/126365920?v=4'}
           firstName={'Filo'}

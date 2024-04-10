@@ -10,6 +10,8 @@
 .two {
   grid-column-start: 2;
   grid-column-end: 4;
+  opacity: 0;
+  animation: fadeIn 5s forwards ;
 }
 
 .serverContainer{
@@ -24,7 +26,12 @@
 
 .applicationInfoContainer{
   opacity: 0;
-  animation: fadeIn 10s forwards ;
+  animation: fadeIn 5s forwards ;
+}
+
+.profileContainer{
+  opacity: 0;
+  animation: fadeIn 5s forwards ;
 }
 
 @keyframes fadeIn{
