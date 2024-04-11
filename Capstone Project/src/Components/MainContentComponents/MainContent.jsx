@@ -32,7 +32,7 @@ export default function MainContent() {
         <IntroductionSec className={styles.test} />
       </div>
 
-      <div>
+      <div className={styles.BackendArchitectureContainer}>
         <BackendArchitecture />
       </div>
 
