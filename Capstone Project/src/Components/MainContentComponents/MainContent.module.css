@@ -35,7 +35,8 @@
 }
 
 .BackendArchitectureContainer{
-  
+  opacity: 0;
+  animation: fadeIn 5s forwards ;
 }
 
 @keyframes fadeIn{
