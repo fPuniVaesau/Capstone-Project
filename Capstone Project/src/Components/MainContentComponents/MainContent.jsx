@@ -28,7 +28,7 @@ export default function MainContent() {
         <Title mainTitle={'Getting to know the Backend!'} />
       </div>
 
-      <div className=''>
+      <div className={styles.introductionContainer}>
         <IntroductionSec className={styles.test} />
       </div>
 
