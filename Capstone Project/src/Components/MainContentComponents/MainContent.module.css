@@ -12,16 +12,22 @@
   grid-column-end: 4;
   opacity: 0;
   animation: fadeIn 5s forwards ;
+  animation-timing-function: ease-in-out;
+  animation-delay: 6s;
 }
 
 .serverContainer{
   opacity: 0;
   animation: fadeIn 5s forwards ;
+  animation-timing-function: ease-in-out;
+  animation-delay: 8s;
 }
 
 .databaseContainer{
   opacity: 0;
   animation: fadeIn 5s forwards ;
+  animation-timing-function: ease-in-out;
+  animation-delay: 4s;
 }
 
 .applicationInfoContainer{
@@ -32,11 +38,15 @@
 .profileContainer{
   opacity: 0;
   animation: fadeIn 5s forwards ;
+  animation-timing-function: ease-in-out;
+  animation-delay: 2s;
 }
 
 .BackendArchitectureContainer{
   opacity: 0;
   animation: fadeIn 5s forwards ;
+  animation-timing-function: ease-in-out;
+  animation-delay: 10s;
 }
 
 @keyframes fadeIn{
