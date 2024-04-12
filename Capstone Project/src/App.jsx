@@ -5,9 +5,9 @@ import MainContent from './Components/MainContentComponents/MainContent';
 export default function App() {
   return (
     <div className={styles.mainContainer}>
-      <header>
+      {/* <header>
         <MainHeader />
-      </header>
+      </header> */}
 
       <main>
         <MainContent />
