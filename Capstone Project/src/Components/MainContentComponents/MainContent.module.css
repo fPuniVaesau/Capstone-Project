@@ -7,6 +7,13 @@
   gap: .85rem;
 }
 
+.profileContainer{
+  opacity: 0;
+  animation: fadeIn 5s forwards ;
+  animation-timing-function: ease-in-out;
+  animation-delay: 1s ;
+}
+
 .two {
   grid-column-start: 2;
   grid-column-end: 4;
@@ -37,12 +44,6 @@
   animation-delay: 13s;
 }
 
-.profileContainer{
-  opacity: 0;
-  animation: fadeIn 5s forwards ;
-  animation-timing-function: ease-in-out;
-  animation-delay: 1s ;
-}
 
 .BackendArchitectureContainer{
   opacity: 0;
