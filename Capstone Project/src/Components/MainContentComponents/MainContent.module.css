@@ -13,7 +13,7 @@
   opacity: 0;
   animation: fadeIn 5s forwards ;
   animation-timing-function: ease-in-out;
-  animation-delay: 6s;
+  animation-delay: 3s;
 }
 
 .serverContainer{
@@ -33,13 +33,15 @@
 .applicationInfoContainer{
   opacity: 0;
   animation: fadeIn 5s forwards ;
+  animation-timing-function: ease-in-out;
+  animation-delay: 13s;
 }
 
 .profileContainer{
   opacity: 0;
   animation: fadeIn 5s forwards ;
   animation-timing-function: ease-in-out;
-  animation-delay: 2s;
+  animation-delay: 1s ;
 }
 
 .BackendArchitectureContainer{
