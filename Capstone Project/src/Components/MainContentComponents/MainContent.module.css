@@ -23,6 +23,20 @@
   animation-delay: 3s;
 }
 
+.introductionContainer{
+  opacity: 0;
+  animation: fadeIn 5s forwards ;
+  animation-timing-function: ease-in-out;
+  animation-delay: 5s;
+}
+
+.BackendArchitectureContainer{
+  opacity: 0;
+  animation: fadeIn 5s forwards ;
+  animation-timing-function: ease-in-out;
+  animation-delay: 7s;
+}
+
 .serverContainer{
   opacity: 0;
   animation: fadeIn 5s forwards ;
@@ -45,19 +59,7 @@
 }
 
 
-.BackendArchitectureContainer{
-  opacity: 0;
-  animation: fadeIn 5s forwards ;
-  animation-timing-function: ease-in-out;
-  animation-delay: 7s;
-}
 
-.introductionContainer{
-  opacity: 0;
-  animation: fadeIn 5s forwards ;
-  animation-timing-function: ease-in-out;
-  animation-delay: 5s;
-}
 
 @keyframes fadeIn{
   0%{
