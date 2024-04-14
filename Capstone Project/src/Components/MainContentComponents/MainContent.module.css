@@ -25,21 +25,21 @@
 
 .introductionContainer{
   opacity: 0;
-  animation: fadeIn 5s forwards ;
+  animation: fadeIn 3s forwards ;
   animation-timing-function: ease-in-out;
   animation-delay: 3s;
 }
 
 .BackendArchitectureContainer{
   opacity: 0;
-  animation: fadeIn 5s forwards ;
+  animation: fadeIn 3s forwards ;
   animation-timing-function: ease-in-out;
   animation-delay: 4s;
 }
 
 .serverContainer{
   opacity: 0;
-  animation: fadeIn 5s forwards ;
+  animation: fadeIn 3s forwards ;
   animation-timing-function: ease-in-out;
   animation-delay: 5s;
 }
