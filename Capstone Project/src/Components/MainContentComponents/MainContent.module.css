@@ -41,21 +41,21 @@
   opacity: 0;
   animation: fadeIn 5s forwards ;
   animation-timing-function: ease-in-out;
-  animation-delay: 9s;
+  animation-delay: 5s;
 }
 
 .databaseContainer{
   opacity: 0;
   animation: fadeIn 5s forwards ;
   animation-timing-function: ease-in-out;
-  animation-delay: 11s;
+  animation-delay: 6s;
 }
 
 .applicationInfoContainer{
   opacity: 0;
   animation: fadeIn 5s forwards ;
   animation-timing-function: ease-in-out;
-  animation-delay: 13s;
+  animation-delay: 7s;
 }
 
 @keyframes fadeIn{
