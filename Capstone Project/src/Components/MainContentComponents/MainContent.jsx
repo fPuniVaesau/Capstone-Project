@@ -1,4 +1,4 @@
-
+// imported modules
 import ProfileCard from './ProfileCardComponents/ProfileCard';
 import Title from './TitleComponents/Title';
 import IntroductionSec from './IntroComponents/IntroductionSec';
@@ -6,6 +6,7 @@ import BackendArchitecture from './BackendArchitectureComponents/BackendArchitec
 import ServerInfo from './ServerInfoComponents/ServerInfo';
 import DatabaseInfo from './DatabaseComponents/DatabaseInfo';
 import ApplicationInfo from './ApplicationComponents/ApplicationInfo';
+// imported style module
 import styles from './MainContent.module.css';
 
 export default function MainContent() {
