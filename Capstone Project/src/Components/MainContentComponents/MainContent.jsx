@@ -24,7 +24,7 @@ export default function MainContent() {
         />
       </div>
 
-      <div className={styles.two}>
+      <div className={styles.title}>
         <Title mainTitle={'Getting to know the Backend!'} />
       </div>
 
