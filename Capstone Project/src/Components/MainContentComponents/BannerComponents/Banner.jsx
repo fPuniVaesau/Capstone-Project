@@ -5,7 +5,8 @@ export default function Banner({bannerImage}){
     <div className={styles.bannerWrapper}>
       <img 
       className={styles.banner}
-      src={bannerImage} alt="banner image" />
+      src={bannerImage} 
+      alt="banner image" />
     </div>
   )
 }

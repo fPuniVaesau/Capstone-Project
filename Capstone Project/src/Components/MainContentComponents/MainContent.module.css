@@ -58,6 +58,10 @@
   animation-delay: 7s;
 }
 
+.bannerContainer{
+  
+}
+
 @keyframes fadeIn{
   0%{
     opacity: 0;
