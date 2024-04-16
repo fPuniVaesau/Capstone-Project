@@ -48,6 +48,10 @@ export default function MainContent() {
       <div className={styles.applicationInfoContainer}>
         <ApplicationInfo />
       </div>
+
+      <div>
+        
+      </div>
       
     </div>
   );
