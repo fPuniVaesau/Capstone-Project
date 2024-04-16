@@ -1,3 +1,9 @@
-.bannerContainer{
+.bannerWrapper{
   border: 1px solid red;
+}
+
+.banner{
+  display: block;
+  width: 100%;
+
 }
