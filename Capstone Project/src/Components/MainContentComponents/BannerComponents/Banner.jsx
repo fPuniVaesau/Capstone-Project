@@ -3,7 +3,7 @@ export default function Banner({bannerImage}){
 
   return(
     <div className={styles.bannerContainer}>
-      <img src={bannerImage} alt="" />
+      <img src={bannerImage} alt="banner image" />
     </div>
   )
 }
