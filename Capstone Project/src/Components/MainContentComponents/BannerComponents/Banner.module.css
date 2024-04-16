@@ -1,6 +1,7 @@
 .bannerWrapper{
-  border: 1px solid red;
+  border: 3px solid whitesmoke;
   padding: 0px;
+  border-radius: 10px;
 }
 
 .banner{
@@ -8,6 +9,6 @@
   width: 100%;
   object-fit: cover;
   padding: 5px;
-  border-radius: 5px;
+  border-radius: 10px;
   max-height: 500px;
 }
