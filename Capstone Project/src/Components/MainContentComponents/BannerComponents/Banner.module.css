@@ -1,9 +1,11 @@
 .bannerWrapper{
   border: 1px solid red;
+  padding: 0px;
 }
 
 .banner{
   display: block;
   width: 100%;
-
+  padding: 5px;
+  border-radius: 10px;
 }
