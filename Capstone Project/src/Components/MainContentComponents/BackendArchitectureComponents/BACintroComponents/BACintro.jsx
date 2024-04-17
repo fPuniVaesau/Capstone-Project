@@ -12,10 +12,16 @@ export default function BACintro() {
         <div className={styles.info}>
           <h4 className={styles.subTitle}>The Server</h4>
           <p>
-            the computer or machine that will host your application and listens
+            Refers to the computer or machine that will host your application and listens
             for incoming request from the client.
           </p>
-          <p>The server can be physical, virtual or on the cloud.</p>
+          <p>The server can be physical, a virtual server or on a server that is hosted on the cloud.</p>
+          <p>
+            For the capstone project we will work with node.js to create a server where our application will be hosted on.
+          </p>
+          <p>
+            Servers can be very complex with a lot of components but for the capstone I will focus on creating a simple server.
+          </p>
         </div>
 
         <div className={styles.info}>

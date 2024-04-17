@@ -18,6 +18,10 @@
   margin-bottom: 10px;
 }
 
+.info > p{
+  margin-bottom: 10px ;
+}
+
 .subTitle {
   color: rgb(158, 196, 70);
 }
