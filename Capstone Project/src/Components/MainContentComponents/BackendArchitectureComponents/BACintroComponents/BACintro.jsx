@@ -27,12 +27,18 @@ export default function BACintro() {
         <div className={styles.info}>
           <h4 className={styles.subTitle}>The Application</h4>
           <p>
-            the software or program that will run on the server which contains
+            Refers to the software or program that will run on the server which contains
             the logic and functionality of the application.
           </p>
           <p>
             It can be written in your choice of programming language and
             framework that suits your needs.
+          </p>
+          <p>
+            The languages that I will be using for this project will be JavaScript along with different frameworks and tools.
+          </p>
+          <p>
+            Some will be used for the front-end development and some will be used for the back-end development of this project.
           </p>
         </div>
 
