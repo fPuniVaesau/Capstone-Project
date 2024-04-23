@@ -55,7 +55,9 @@ export default function MainContent() {
         <ApplicationInfo />
       </div>
 
-      
+      <div>
+        
+      </div>
     </div>
   );
 }
