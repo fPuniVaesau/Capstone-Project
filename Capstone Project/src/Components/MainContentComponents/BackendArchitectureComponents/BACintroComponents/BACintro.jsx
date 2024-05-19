@@ -12,33 +12,40 @@ export default function BACintro() {
         <div className={styles.info}>
           <h4 className={styles.subTitle}>The Server</h4>
           <p>
-            Refers to the computer or machine that will host your application and listens
-            for incoming request from the client.
-          </p>
-          <p>The server can be physical, a virtual server or on a server that is hosted on the cloud.</p>
-          <p>
-            For the capstone project we will work with node.js to create a server where our application will be hosted on.
+            Refers to the computer or machine that will host your application
+            and listens for incoming request from the client.
           </p>
           <p>
-            Servers can be very complex with a lot of components but for the capstone I will focus on creating a simple server.
+            The server can be physical, a virtual server or on a server that is
+            hosted on the cloud.
+          </p>
+          <p>
+            For the capstone project we will work with node.js to create a
+            server where our application will be hosted on.
+          </p>
+          <p>
+            Servers can be very complex with a lot of components but for the
+            capstone I will focus on creating a simple server.
           </p>
         </div>
 
         <div className={styles.info}>
           <h4 className={styles.subTitle}>The Application</h4>
           <p>
-            Refers to the software or program that will run on the server which contains
-            the logic and functionality of the application.
+            Refers to the software or program that will run on the server which
+            contains the logic and functionality of the application.
           </p>
           <p>
             It can be written in your choice of programming language and
             framework that suits your needs.
           </p>
           <p>
-            The languages that I will be using for this project will be JavaScript along with different frameworks and tools.
+            The languages that I will be using for this project will be
+            JavaScript along with different frameworks and tools.
           </p>
           <p>
-            Some will be used for the front-end development and some will be used for the back-end development of this project.
+            Some will be used for the front-end development and some will be
+            used for the back-end development of this project.
           </p>
         </div>
 
@@ -51,6 +58,17 @@ export default function BACintro() {
             It can be a relational database like MySQL or PostgreSQL, perhaps a
             non-relational database like MongoDB or Firebase, or a combination
             of both.
+          </p>
+          <p>
+            Data bases make it possible to store all your data for your
+            processes and application in one place allowing you to have a
+            cleaner and concise file structure.
+          </p>
+          <p>
+            Databases are used for processing data needed for your application,
+            they store, manage and distribute data depending on the users
+            request when interacting with the fronted portion of your
+            application.
           </p>
         </div>
       </div>

@@ -39,7 +39,7 @@ export default function MainContent() {
       </div>
 
       <div className={styles.bannerContainer}>
-          <Banner bannerImage={"https://images.unsplash.com/photo-1701430946144-09675a15942a?q=80&w=3732&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"} />
+          <Banner bannerImage={"https://res.cloudinary.com/practicaldev/image/fetch/s--udbxvPC---/c_limit%2Cf_auto%2Cfl_progressive%2Cq_66%2Cw_800/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/pi9le9v004gzqdqo65p8.gif"} />
       </div>
 
       <div className={styles.serverContainer}>
