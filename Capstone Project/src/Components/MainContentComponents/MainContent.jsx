@@ -40,7 +40,7 @@ export default function MainContent() {
       </div>
 
       <div className={styles.bannerContainer}>
-          <Banner bannerImage={"https://res.cloudinary.com/practicaldev/image/fetch/s--udbxvPC---/c_limit%2Cf_auto%2Cfl_progressive%2Cq_66%2Cw_800/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/pi9le9v004gzqdqo65p8.gif"} />
+          <Banner bannerImage={"https://i.gifer.com/embedded/download/RUbq.gif"} />
       </div>
 
       <div className={styles.serverContainer}>

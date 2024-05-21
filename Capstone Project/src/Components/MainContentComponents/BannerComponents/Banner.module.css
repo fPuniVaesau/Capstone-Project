@@ -12,7 +12,8 @@
   object-fit: cover;
   padding: 10px;
   border-radius: 15px;
-  max-height: 400px;
+  max-height: 100px;
   margin: auto;
+  opacity: 15%;
 }
 
