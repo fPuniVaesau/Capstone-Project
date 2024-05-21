@@ -10,10 +10,10 @@
 
 .resourceList{
   border: 1px solid red;
-  margin-top: 10px;
+  margin: 10px 0px;
   padding: 0;
 }
 
 .subTitle{
-  color: black;
+  color: rgb(167, 198, 65);
 }

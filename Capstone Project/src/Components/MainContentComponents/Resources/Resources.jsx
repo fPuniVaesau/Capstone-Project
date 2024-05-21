@@ -4,8 +4,8 @@ export default function Resources() {
   return (
     <div className={styles.resourceContainer}>
       <div>
-        <h1>Resources</h1>
-        <p>used to learn the Backend.</p>
+        <h2 className={styles.headerTwo}>Resources</h2>
+        <h3 className={styles.headerThree}>used to learn the Backend.</h3>
       </div>
 
       <div className={styles.resourceList}>
