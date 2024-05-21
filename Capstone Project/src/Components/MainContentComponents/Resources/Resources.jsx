@@ -4,8 +4,8 @@ export default function Resources() {
   return (
     <div className={styles.resourceContainer}>
       <div>
-        <h1>This is a test</h1>
-        <p>resources page</p>
+        <h1>Resources</h1>
+        <p>used to learn the Backend.</p>
       </div>
 
       <div>
@@ -13,7 +13,7 @@ export default function Resources() {
           <li><a href="https://developer.mozilla.org/en-US/">MDN Mozilla Docs</a></li>
           <li><a href="https://medium.com/">Medium</a></li>
           <li><a href="https://www.youtube.com/">YouTube</a></li>
-          <li></li>
+          <li><a href="https://www.codecademy.com/">Codecademy</a></li>
           <li></li>
         </ul>
       </div>
