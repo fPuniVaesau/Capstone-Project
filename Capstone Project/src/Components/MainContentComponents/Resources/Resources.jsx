@@ -1,3 +1,4 @@
+import styles from './Resources.module.css'
 
 export default function Resources(){
   return(

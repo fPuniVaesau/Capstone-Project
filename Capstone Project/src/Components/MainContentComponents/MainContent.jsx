@@ -7,6 +7,7 @@ import ServerInfo from './ServerInfoComponents/ServerInfo';
 import DatabaseInfo from './DatabaseComponents/DatabaseInfo';
 import ApplicationInfo from './ApplicationComponents/ApplicationInfo';
 import Banner from './BannerComponents/Banner';
+import Resources from './Resources/Resources';
 // imported style module
 import styles from './MainContent.module.css';
 
@@ -54,6 +55,9 @@ export default function MainContent() {
         <ApplicationInfo />
       </div>
 
+      <div>
+        <Resources />
+      </div>
     </div>
   );
 }
