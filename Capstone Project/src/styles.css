@@ -22,3 +22,20 @@ body {
 main {
   margin-top: 10px;
 }
+
+a{
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+  transition: .3s ease-in-out;
+}
+
+a:hover{
+  color: rgb(151, 202, 64);
+  letter-spacing: 3px;
+}
+
+li{
+  list-style: none;
+  line-height: 1.5;
+}
