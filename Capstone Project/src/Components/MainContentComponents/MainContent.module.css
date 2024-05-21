@@ -4,7 +4,7 @@
   place-content: center;
   grid-template-columns: repeat(4, 1fr);
   padding: 10px;
-  gap: .85rem;
+  gap: 1rem;
 }
 
 .profileContainer{

@@ -1,7 +1,8 @@
 .titleContainer {
   display: grid;
   min-height: 100%;
-  border: 3px solid whitesmoke;
+  /* border: 3px solid whitesmoke; */
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
   /* border: 1px solid tomato; */
   border-radius: 20px;
   padding: 0;
