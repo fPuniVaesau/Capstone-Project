@@ -7,84 +7,82 @@
   gap: 1rem;
 }
 
-.profileContainer{
+.profileContainer {
   opacity: 0;
-  animation: fadeIn 3s forwards ;
+  animation: fadeIn 3s forwards;
   animation-timing-function: ease-in-out;
-  animation-delay: 1s ;
+  animation-delay: 1s;
 }
-
 
 .title {
   grid-column-start: 2;
   grid-column-end: 4;
   opacity: 0;
-  animation: fadeIn 3s forwards ;
+  animation: fadeIn 3s forwards;
   animation-timing-function: ease-in-out;
   animation-delay: 2s;
 }
 
-.introductionContainer{
+.introductionContainer {
   opacity: 0;
-  animation: fadeIn 3s forwards ;
+  animation: fadeIn 3s forwards;
   animation-timing-function: ease-in-out;
   animation-delay: 3s;
 }
 
-.BackendArchitectureContainer{
+.BackendArchitectureContainer {
   grid-column-start: 3;
   grid-column-end: 5;
   opacity: 0;
-  animation: fadeIn 3s forwards ;
+  animation: fadeIn 3s forwards;
   animation-timing-function: ease-in-out;
   animation-delay: 4s;
   display: flex;
 }
 
-.bannerContainer{
+.bannerContainer {
   grid-column-start: 1;
   grid-column-end: 5;
   opacity: 0;
-  animation: fadeIn 3s forwards ;
+  animation: fadeIn 3s forwards;
   animation-timing-function: ease-in-out;
   animation-delay: 5s;
 }
 
-.serverContainer{
+.serverContainer {
   opacity: 0;
-  animation: fadeIn 3s forwards ;
+  animation: fadeIn 3s forwards;
   animation-timing-function: ease-in-out;
   animation-delay: 7s;
 }
 
-.databaseContainer{
+.databaseContainer {
   opacity: 0;
-  animation: fadeIn 3s forwards ;
+  animation: fadeIn 3s forwards;
   animation-timing-function: ease-in-out;
   animation-delay: 8s;
 }
 
-.applicationInfoContainer{
+.applicationInfoContainer {
   opacity: 0;
-  animation: fadeIn 3s forwards ;
+  animation: fadeIn 3s forwards;
   animation-timing-function: ease-in-out;
   animation-delay: 9s;
 }
 
-.ResourcesContainer{
+.ResourcesContainer {
   opacity: 0;
-  animation: fadeIn 3s forwards ;
+  animation: fadeIn 3s forwards;
   animation-timing-function: ease-in-out;
   animation-delay: 11s;
 }
 
-
-@keyframes fadeIn{
-  0%{
+@keyframes fadeIn {
+  0% {
     opacity: 0;
   }
 
-  100%{
+  100% {
     opacity: 1;
   }
 }

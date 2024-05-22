@@ -40,7 +40,9 @@ export default function MainContent() {
       </div>
 
       <div className={styles.bannerContainer}>
-          <Banner bannerImage={"https://i.gifer.com/embedded/download/RUbq.gif"} />
+        <Banner
+          bannerImage={'https://i.gifer.com/embedded/download/RUbq.gif'}
+        />
       </div>
 
       <div className={styles.serverContainer}>
