@@ -19,7 +19,7 @@ export default function Resources() {
         </ul>
       </div>
 
-      <div>
+      <div className={styles.articleContainer}>
         <h4 className={styles.subTitle}>Articles</h4>
         <ul>
 
