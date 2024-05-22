@@ -22,7 +22,11 @@ export default function Resources() {
       <div className={styles.articleContainer}>
         <h4 className={styles.subTitle}>Articles</h4>
         <ul>
-
+            <li><a href="https://medium.com/@asiandigitalhub/what-is-node-js-and-how-it-work-490f5ecba665">What is Node.js and How it Work?</a></li>
+            <li><a href=""></a></li>
+            <li><a href=""></a></li>
+            <li><a href=""></a></li>
+            <li><a href=""></a></li>
         </ul>
       </div>
     </div>
